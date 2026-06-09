@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <memory>
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class Block;
 

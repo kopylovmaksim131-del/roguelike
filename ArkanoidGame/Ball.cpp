@@ -1,7 +1,7 @@
 #include "Ball.h"
 #include "Block.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	sf::Texture* Ball::texture = nullptr;
 

@@ -7,7 +7,7 @@
 #include "GameObject.h"
 #include "Block.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	struct Level
 	{
@@ -17,15 +17,15 @@ namespace ArkanoidGame
 	class LevelLoader
 	{
 	public:
-		LevelLoader() { LoadLevelFromFile(); };
+		/*LevelLoader() { LoadLevelFromFile(); };
 		Level& GetLevel( int i);
 		~LevelLoader() = default;
-		int GetLevelCount();
+		int GetLevelCount();*/
 
 	private:
-		void LoadLevelFromFile();
+		/*void LoadLevelFromFile();
 
 		static ObjectType CharToBlockType(char symbol);
-		std::vector<Level> levels;
+		std::vector<Level> levels;*/
 	};
 }

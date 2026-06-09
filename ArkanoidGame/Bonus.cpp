@@ -1,6 +1,6 @@
 #include "Bonus.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	sf::Texture* Bonus::texture = nullptr;
 

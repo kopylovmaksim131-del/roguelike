@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class GameWorld
 	{
@@ -37,7 +37,7 @@ namespace ArkanoidGame
 		const int MAX_RECORDS_TABLE_SIZE = 5;
 		//static const char* PLAYER_NAME; // We need to define this constant in some CPP
 		const std::string PLAYER_NAME = "Player";
-		const std::string GAME_NAME = "ArkanoidGame";
+		const std::string GAME_NAME = "RoguelikeGame";
 	};
 }
 

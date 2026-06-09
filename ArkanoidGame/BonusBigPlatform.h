@@ -12,7 +12,7 @@
 #include "Collidable.h"
 #include "SizeEffect.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class BonusBigPlatform : public Bonus
 	{

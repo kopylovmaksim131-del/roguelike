@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include "Game.h"
 
-namespace ArkanoidGame {
+namespace RoguelikeGame {
 	
 	class Application
 	{
@@ -22,7 +22,6 @@ namespace ArkanoidGame {
 
 	private:
 		Game game;
-		//sf::RenderWindow window;
 	};
 
 }

@@ -11,7 +11,7 @@
 #include "BonusEffect.h"
 
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	enum class BonusType
 	{

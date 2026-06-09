@@ -9,7 +9,7 @@
 #include <chrono>
 #include <algorithm> 
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	void GameStatePlayingData::Init()
 	{	
@@ -17,7 +17,7 @@ namespace ArkanoidGame
 		assert(eatAppleSoundBuffer.loadFromFile(SETTINGS.SOUNDS_PATH + "AppleEat.wav"));
 		assert(gameOverSoundBuffer.loadFromFile(SETTINGS.SOUNDS_PATH + "Death.wav"));
 		assert(gameWinSoundBuffer.loadFromFile(SETTINGS.SOUNDS_PATH + "WinSound.wav"));
-		Platform::LoadTexture();
+		/*Platform::LoadTexture();
 		Ball::LoadTexture();
 		Block::LoadTexture();
 		Bonus::LoadTexture();
@@ -34,7 +34,7 @@ namespace ArkanoidGame
 		factories.emplace(ObjectType::ThreeHit, std::make_unique<ThreeHitBlockFactory>());
 		factories.emplace(ObjectType::Glass, std::make_unique<GlassBlockFactory>());
 
-		CreatBlocks();
+		CreatBlocks();*/
 
 		background.setSize(sf::Vector2f(static_cast<float>(SETTINGS.SCREEN_WIDTH), static_cast<float>(SETTINGS.SCREEN_HEGHT)));
 		background.setPosition(0.f, 0.f);
@@ -44,7 +44,6 @@ namespace ArkanoidGame
 		gameOverSound.setBuffer(gameOverSoundBuffer);
 		gameWinSound.setBuffer(gameWinSoundBuffer);
 
-		scoreStrategy = std::make_unique<SimpleScoreStrategy>();
 	}
 
 	void GameStatePlayingData::HandleWindowEvent(const sf::Event& event)
@@ -53,31 +52,32 @@ namespace ArkanoidGame
 		{
 			if (event.key.code == sf::Keyboard::Escape)
 			{
-				Application::Instance().GetGame().PushGameState(GameStateType::ExitDialog, false);
+				Application::Instance().GetGame().SwitchGameState(GameStateType::MainMenu);
+				//Application::Instance().GetGame().PushGameState(GameStateType::ExitDialog, false);
 			}
 			else if (event.key.code == sf::Keyboard::F5)
 			{
 				if (isGameStart) {
-					Application::Instance().GetGame().saves.push(Save());
+					//Application::Instance().GetGame().saves.push(Save());
 				}
 			}
 			else if (event.key.code == sf::Keyboard::F9)
 			{
-				if (isGameStart) {
+				/*if (isGameStart) {
 					auto& game = Application::Instance().GetGame();
 					if (!game.saves.empty())
 					{
 						Load(game.saves.top());
 						game.saves.pop();
 					}
-				}
+				}*/
 			}
 		}
 	}
 
 	void GameStatePlayingData::Update(float timeDelta)
 	{
-		auto platform = std::dynamic_pointer_cast<Platform>(gameObjects[0]);
+		/*auto platform = std::dynamic_pointer_cast<Platform>(gameObjects[0]);
 		auto ball = std::dynamic_pointer_cast<Ball>(gameObjects[1]);
 		
 		bool isGameFinished = false;
@@ -197,25 +197,31 @@ namespace ArkanoidGame
 			gameWinSound.play();
 			isGameStart = false;
 			game.PushGameState(GameStateType::GameWin, false);
-		}
+		}*/
 	}
 
 	void GameStatePlayingData::Draw(sf::RenderWindow& window)
 	{
+		sf::Vector2f viewSize = window.getView().getSize();
+
 		window.draw(background);
 		
-		for (auto&& object : gameObjects)
+		sf::Text hintText;
+		hintText.setFont(font);
+		hintText.setCharacterSize(48);
+		hintText.setFillColor(sf::Color::Black);
+		hintText.setString("TO BE DONE...\n Press Esc to exit to menu");
+		hintText.setOrigin(GetTextOrigin(hintText, { 0.5f, 1.f }));
+		hintText.setPosition(viewSize.x / 2.f, viewSize.y / 2.f);
+		window.draw(hintText);
+
+		/*for (auto&& object : gameObjects)
 		{
 			object->Draw(window);
-		}
-
-		for (auto& bons : bonuses)
-		{
-			bons->Draw(window);
-		}
+		}*/
 	}
 
-	void GameStatePlayingData::CreatBlocks()
+	/*void GameStatePlayingData::CreatBlocks()
 	{
 		const auto& level = levelloader.GetLevel(1);
 		for (const auto& blockData : level.m_blocks)
@@ -228,42 +234,11 @@ namespace ArkanoidGame
 			gameObjects.emplace_back(factories.at(blockData.second)->CreateBlock(position));
 			
 		}
-	}
+	}*/
 
-	void GameStatePlayingData::CreateBonus(sf::Vector2f bonusPos)
+	void GameStatePlayingData::Save()
 	{
-		std::vector<BonusType> types = 
-		{
-			BonusType::FastPlatform,
-			BonusType::BigPlatform,
-			BonusType::SlowBall
-		};
-
-		int index = rand() % types.size();
-		BonusType randomType = types[index];
-
-		std::shared_ptr<Bonus> bonus;
-
-		switch (randomType) {
-		case BonusType::FastPlatform:
-			bonus = std::make_shared<BonusFastPlatform>();
-			break;
-		case BonusType::BigPlatform:
-			bonus = std::make_shared<BonusBigPlatform>();
-			break;
-		case BonusType::SlowBall:
-			bonus = std::make_shared<BonusSlowBallSpeed>();
-			break;
-		}
-
-		bonus->Init();
-		bonus->SetPosition(bonusPos);
-		bonuses.push_back(bonus);
-	}
-
-	GameMemento GameStatePlayingData::Save()
-	{
-		auto ball = std::dynamic_pointer_cast<Ball>(gameObjects[1]);
+		/*auto ball = std::dynamic_pointer_cast<Ball>(gameObjects[1]);
 		BallSaveData ballData{
 			ball->GetSaveData()
 		};
@@ -291,12 +266,12 @@ namespace ArkanoidGame
 			bonusesData.push_back({ bonus->GetPosition(), bonus->GetBonusType() });
 		}
 
-		return GameMemento(ballData, platformData, gameSave, blocksData, bonusesData);
+		return GameMemento(ballData, platformData, gameSave, blocksData, bonusesData);*/
 	}
 
 	void GameStatePlayingData::Load(GameMemento& objects)
 	{
-		auto ball = std::dynamic_pointer_cast<Ball>(gameObjects[1]);
+		/*auto ball = std::dynamic_pointer_cast<Ball>(gameObjects[1]);
 		ball->LoadData(objects.ballData);
 
 		auto platform = std::dynamic_pointer_cast<Platform>(gameObjects[0]);
@@ -359,6 +334,6 @@ namespace ArkanoidGame
 			obj->Init();
 			obj->SetPosition(objData.position);
 			bonuses.push_back(obj);
-		}
+		}*/
 	}
 }

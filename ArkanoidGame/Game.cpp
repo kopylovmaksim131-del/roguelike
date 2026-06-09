@@ -9,7 +9,7 @@
 #include "GameStateMainMenu.h"
 #include "GameStateRecords.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	Game::Game()
 		: window(sf::VideoMode(SETTINGS.SCREEN_WIDTH, SETTINGS.SCREEN_HEGHT), SETTINGS.GAME_NAME)

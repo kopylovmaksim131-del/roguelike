@@ -12,7 +12,7 @@
 #include "Collidable.h"
 #include "SpeedEffectPlatform.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class BonusFastPlatform : public Bonus
 	{

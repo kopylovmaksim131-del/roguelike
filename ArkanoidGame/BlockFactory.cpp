@@ -4,7 +4,7 @@
 #include "GlassBlock.h"
 
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	int BlockFactory::GetCreatBreackableBlockCount()
 	{

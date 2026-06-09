@@ -1,6 +1,6 @@
 #include "DurableBlock.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	DurableBlock::DurableBlock(const sf::Vector2f& blockPosition) : Block(blockPosition)
 	{

@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include "memory.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class Collidable
 	{

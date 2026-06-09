@@ -8,7 +8,7 @@
 #include "GameObject.h"
 #include "Collidable.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class Block : public GameObject, public Collidable
 	{

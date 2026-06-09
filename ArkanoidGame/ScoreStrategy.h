@@ -5,7 +5,7 @@
 #include <array>
 #include "GameObject.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class ScoreStrategy
 	{

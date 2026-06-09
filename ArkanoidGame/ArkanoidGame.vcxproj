@@ -159,19 +159,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
-    <ClCompile Include="Ball.cpp" />
-    <ClCompile Include="Block.cpp" />
-    <ClCompile Include="BlockFactory.cpp" />
-    <ClCompile Include="Bonus.cpp" />
-    <ClCompile Include="BonusSlowBallSpeed.cpp" />
-    <ClCompile Include="BonusBigPlatform.cpp" />
-    <ClCompile Include="BonusFastPlatform.cpp" />
-    <ClCompile Include="DurableBlock.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameStateDate.cpp" />
     <ClCompile Include="GameStateGameWin.cpp" />
-    <ClCompile Include="GlassBlock.cpp" />
-    <ClCompile Include="LevelLoader.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameMain.cpp" />
@@ -182,31 +172,14 @@
     <ClCompile Include="GameStateRecords.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Text.cpp" />
-    <ClCompile Include="Platform.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
-    <ClInclude Include="Ball.h" />
-    <ClInclude Include="Block.h" />
-    <ClInclude Include="BlockFactory.h" />
-    <ClInclude Include="Bonus.h" />
-    <ClInclude Include="BonusEffect.h" />
-    <ClInclude Include="BonusSlowBallSpeed.h" />
-    <ClInclude Include="BonusBigPlatform.h" />
-    <ClInclude Include="BonusFastPlatform.h" />
-    <ClInclude Include="Collidable.h" />
-    <ClInclude Include="DurableBlock.h" />
     <ClInclude Include="GameMemento.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameStateData.h" />
     <ClInclude Include="GameStateGameWin.h" />
-    <ClInclude Include="GlassBlock.h" />
     <ClInclude Include="LevelLoader.h" />
-    <ClInclude Include="ScoreStrategy.h" />
-    <ClInclude Include="SimpleScoreStrategy.h" />
-    <ClInclude Include="SizeEffect.h" />
-    <ClInclude Include="SpeedEffect.h" />
-    <ClInclude Include="SpeedEffectPlatform.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameSettings.h" />
@@ -217,7 +190,6 @@
     <ClInclude Include="GameStateRecords.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Text.h" />
-    <ClInclude Include="Platform.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

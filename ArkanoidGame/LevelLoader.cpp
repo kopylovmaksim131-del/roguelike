@@ -5,7 +5,7 @@
 #include <fstream>
 #include <filesystem>
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	Level& LevelLoader::GetLevel(int i)
 	{
@@ -14,7 +14,7 @@ namespace ArkanoidGame
 
 	int LevelLoader::GetLevelCount()
 	{
-		return levels.size();
+		return static_cast<int>(levels.size());
 	}
 
 	void LevelLoader::LoadLevelFromFile()

@@ -1,6 +1,6 @@
 #include "BonusSlowBallSpeed.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	BonusSlowBallSpeed::BonusSlowBallSpeed()
 	{
