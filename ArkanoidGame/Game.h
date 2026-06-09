@@ -1,8 +1,5 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include "Platform.h"
-#include "Ball.h"
-#include "Block.h"
 #include "Sprite.h"
 #include "GameSettings.h"
 #include "GameMemento.h"

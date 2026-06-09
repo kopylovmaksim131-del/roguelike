@@ -37,9 +37,6 @@
     <ClCompile Include="Text.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Platform.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
     <ClCompile Include="Application.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
@@ -50,36 +47,6 @@
       <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="GameStateGameWin.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Ball.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Block.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="DurableBlock.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="GlassBlock.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="LevelLoader.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="BlockFactory.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Bonus.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="BonusBigPlatform.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="BonusFastPlatform.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
-    <ClCompile Include="BonusSlowBallSpeed.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -111,7 +78,6 @@
     <ClInclude Include="Vector.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="Text.h" />
-    <ClInclude Include="Platform.h" />
     <ClInclude Include="Application.h" />
     <ClInclude Include="GameStateData.h">
       <Filter>Sources</Filter>
@@ -122,59 +88,7 @@
     <ClInclude Include="GameStateGameWin.h">
       <Filter>Sources</Filter>
     </ClInclude>
-    <ClInclude Include="Ball.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="Block.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="Collidable.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="DurableBlock.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="GlassBlock.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="LevelLoader.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="BlockFactory.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="GameMemento.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="Bonus.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="BonusBigPlatform.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="BonusFastPlatform.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="BonusSlowBallSpeed.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="BonusEffect.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="SpeedEffect.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="SizeEffect.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="SpeedEffectPlatform.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="ScoreStrategy.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleScoreStrategy.h">
-      <Filter>Sources</Filter>
-    </ClInclude>
+    <ClInclude Include="LevelLoader.h" />
+    <ClInclude Include="GameMemento.h" />
   </ItemGroup>
 </Project>

@@ -1,20 +1,9 @@
 #pragma once
 #include "SFML/Graphics.hpp"
 #include "SFML/Audio.hpp"
-#include "Platform.h"
-#include "Ball.h"
-#include "Block.h"
-#include "DurableBlock.h"
-#include "GlassBlock.h"
-#include "Bonus.h"
-#include "BonusSlowBallSpeed.h"
-#include "BonusFastPlatform.h"
-#include "BonusBigPlatform.h"
 #include "GameStateData.h"
 #include "LevelLoader.h"
-#include "BlockFactory.h"
 #include "GameMemento.h"
-#include "SimpleScoreStrategy.h"
 #include <unordered_map>
 
 namespace RoguelikeGame
@@ -29,10 +18,10 @@ namespace RoguelikeGame
 		void Update(float timeDelta) override;
 		void Draw(sf::RenderWindow& window) override;
 
-		void CreatBlocks();
-		void CreateBonus(sf::Vector2f bonusPos);
+		/*void CreatBlocks();
+		void CreateBonus(sf::Vector2f bonusPos);*/
 
-		GameMemento Save();
+		void Save();
 		void Load(GameMemento& objects);
 
 	private:
@@ -47,7 +36,6 @@ namespace RoguelikeGame
 		std::vector<std::shared_ptr<GameObject>> gameObjects;
 		std::vector<std::shared_ptr<Bonus>> bonuses;
 
-		std::unique_ptr<SimpleScoreStrategy> scoreStrategy;
 		int totalScore = 0;
 
 		sf::RectangleShape background;
@@ -58,8 +46,6 @@ namespace RoguelikeGame
 		sf::Sound eatAppleSound;
 		sf::Sound gameOverSound;
 		sf::Sound gameWinSound;
-
-		std::unordered_map <ObjectType, std::unique_ptr<BlockFactory>> factories;
 
 		bool isGameStart = false;
 	};

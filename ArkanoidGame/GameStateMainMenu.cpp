@@ -94,7 +94,7 @@ namespace RoguelikeGame
 		exitGameItem.childrens.push_back(noItem);
 
 		MenuItem mainMenu;
-		mainMenu.hintText.setString("Arkanoid Game");
+		mainMenu.hintText.setString("Roguelike Game");
 		mainMenu.hintText.setFont(font);
 		mainMenu.hintText.setCharacterSize(48);
 		mainMenu.hintText.setFillColor(sf::Color::Red);

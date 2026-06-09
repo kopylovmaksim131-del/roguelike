@@ -22,7 +22,6 @@ namespace RoguelikeGame {
 
 	private:
 		Game game;
-		//sf::RenderWindow window;
 	};
 
 }

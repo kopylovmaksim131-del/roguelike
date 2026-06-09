@@ -6,7 +6,7 @@
 
 namespace RoguelikeGame
 {
-	struct BlockSaveData 
+	/*struct BlockSaveData
 	{
 		sf::Vector2f position;
 		ObjectType type;      
@@ -22,13 +22,13 @@ namespace RoguelikeGame
 	struct GameSaveData
 	{
 		int playerScore = 0;
-	};
+	};*/
 
 	class GameMemento
 	{
 		friend class GameStatePlayingData;
 
-		BallSaveData ballData;
+		/*BallSaveData ballData;
 		PlatformSaveData platformData;
 		GameSaveData gameSaveData;
 		std::vector<BlockSaveData> gameObjects;
@@ -44,6 +44,6 @@ namespace RoguelikeGame
 			platformData(platform),
 			gameSaveData(gameSave),
 			gameObjects(objects),
-			bonusData(bonuses) {};
+			bonusData(bonuses) {};*/
 	};
 }

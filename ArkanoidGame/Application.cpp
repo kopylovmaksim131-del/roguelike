@@ -9,15 +9,12 @@ namespace RoguelikeGame
 		return instance;
 	}
 
-	//Application::Application() :
-	//	window(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEGHT), GAME_NAME)
 	Application::Application()
 	{
 		// Init random number generator
 		unsigned int seed = (unsigned int)time(nullptr); // Get current time as seed. You can also use any other number to fix randomization
 		srand(seed);
 
-		//InitGame(game);
 		game.InitGame();
 	}
 
