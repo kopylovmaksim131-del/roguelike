@@ -2,7 +2,6 @@
 #include "SFML/Graphics.hpp"
 #include "SFML/Audio.hpp"
 #include "GameObject.h"
-#include "Bonus.h"
 
 namespace RoguelikeGame
 {
