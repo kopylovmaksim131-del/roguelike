@@ -7,7 +7,7 @@
 #include "GameObject.h"
 #include "Block.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	struct Level
 	{

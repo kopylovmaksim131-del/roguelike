@@ -9,7 +9,7 @@
 #include <chrono>
 #include <algorithm> 
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	void GameStatePlayingData::Init()
 	{	

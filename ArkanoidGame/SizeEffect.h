@@ -10,7 +10,7 @@
 #include "Collidable.h"
 #include "BonusEffect.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
     class SizeEffect : public BonusEffect
     {

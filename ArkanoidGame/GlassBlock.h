@@ -7,7 +7,7 @@
 #include "Sprite.h"
 #include "Block.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class GlassBlock : public Block
 	{

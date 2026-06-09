@@ -4,7 +4,7 @@
 #include "GameObject.h"
 #include "Bonus.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	struct BlockSaveData 
 	{

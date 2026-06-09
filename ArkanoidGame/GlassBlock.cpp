@@ -1,7 +1,7 @@
 #include "GlassBlock.h"
 #include "Ball.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	GlassBlock::GlassBlock(const sf::Vector2f& blockPosition) : Block(blockPosition)
 	{

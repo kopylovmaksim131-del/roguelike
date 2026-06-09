@@ -10,7 +10,7 @@
 #include "Collidable.h"
 
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class Block;
 

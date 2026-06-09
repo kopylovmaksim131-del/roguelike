@@ -6,7 +6,7 @@
 #include "GameSettings.h"
 #include "ScoreStrategy.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class SimpleScoreStrategy : ScoreStrategy
 	{

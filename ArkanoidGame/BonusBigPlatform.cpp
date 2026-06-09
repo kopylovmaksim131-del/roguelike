@@ -1,6 +1,6 @@
 #include "BonusBigPlatform.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	BonusBigPlatform::BonusBigPlatform()
 	{

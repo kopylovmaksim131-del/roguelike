@@ -12,7 +12,7 @@
 #include "SpeedEffect.h"
 #include "Collidable.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class BonusSlowBallSpeed : public Bonus
 	{

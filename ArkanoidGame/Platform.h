@@ -8,7 +8,7 @@
 #include "GameObject.h"
 #include "Collidable.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	struct PlatformSaveData
 	{

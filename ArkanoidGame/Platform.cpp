@@ -1,7 +1,7 @@
 #include "Platform.h"
 #include "Ball.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	sf::Texture* Platform::texture = nullptr;
 	

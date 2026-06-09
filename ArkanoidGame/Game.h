@@ -9,7 +9,7 @@
 #include <unordered_map>
 #include <stack>
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	enum class GameOptions: std::uint8_t
 	{
