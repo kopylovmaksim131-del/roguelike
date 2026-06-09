@@ -34,7 +34,6 @@ namespace RoguelikeGame
 		sf::SoundBuffer gameWinSoundBuffer;
 
 		std::vector<std::shared_ptr<GameObject>> gameObjects;
-		std::vector<std::shared_ptr<Bonus>> bonuses;
 
 		int totalScore = 0;
 

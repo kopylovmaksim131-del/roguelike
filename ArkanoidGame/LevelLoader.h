@@ -5,7 +5,6 @@
 #include <memory>
 #include <map>
 #include "GameObject.h"
-#include "Block.h"
 
 namespace RoguelikeGame
 {
