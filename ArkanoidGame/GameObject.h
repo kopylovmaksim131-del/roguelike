@@ -1,32 +1,22 @@
 #pragma once
-#include <SFML/Graphics.hpp>
 
 namespace RoguelikeGame
 {
-	enum class ObjectType
-	{
-		Simple,
-		ThreeHit,
-		Glass,
-		Ball,
-		Platform,
-		Bonus
-	};
-
-	class GameObject
+	/*class GameObject
 	{
 	public:
-		virtual void Init() = 0;
-		virtual void Update(float deltaTime) = 0;
-		virtual void Draw(sf::RenderWindow& window) = 0;
+		GameObject(const std::string& textureId, const sf::Vector2f& position, float width, float height);
+		virtual ~GameObject() = default;
 
-		const sf::Vector2f& GetPosition() { return sprite.getPosition(); };
-		const void SetPosition(const sf::Vector2f pos) { sprite.setPosition(pos); };
-		const sf::FloatRect& GetRect() const { return sprite.getGlobalBounds(); };
-		const ObjectType GetType() const { return type; };
+		virtual void Update(float timeDelta) = 0;
+		virtual void Draw(sf::RenderWindow& window);
 
+		const sf::Vector2f& GetPosition() const { return sprite.getPosition(); }
+		sf::FloatRect GetRect() const { return sprite.getGlobalBounds(); }
+		virtual void restart();
 	protected:
 		sf::Sprite sprite;
-		ObjectType type;
-	};
+		sf::Texture texture;
+		const sf::Vector2f startPosition;
+	};*/
 }

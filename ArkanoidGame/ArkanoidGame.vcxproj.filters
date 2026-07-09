@@ -49,6 +49,21 @@
     <ClCompile Include="GameStateGameWin.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DeveloperLevel.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -90,5 +105,10 @@
     </ClInclude>
     <ClInclude Include="LevelLoader.h" />
     <ClInclude Include="GameMemento.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="DeveloperLevel.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Wall.h" />
   </ItemGroup>
 </Project>

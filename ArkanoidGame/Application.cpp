@@ -3,65 +3,65 @@
 
 namespace RoguelikeGame
 {
-	Application& Application::Instance()
-	{
-		static Application instance;
-		return instance;
-	}
+	//Application& Application::Instance()
+	//{
+	//	static Application instance;
+	//	return instance;
+	//}
 
-	Application::Application()
-	{
-		// Init random number generator
-		unsigned int seed = (unsigned int)time(nullptr); // Get current time as seed. You can also use any other number to fix randomization
-		srand(seed);
+	//Application::Application()
+	//{
+	//	// Init random number generator
+	//	unsigned int seed = (unsigned int)time(nullptr); // Get current time as seed. You can also use any other number to fix randomization
+	//	srand(seed);
 
-		game.InitGame();
-	}
+	//	game.InitGame();
+	//}
 
-	Application::~Application()
-	{
-		game.ShutdownGame();
-	}
+	//Application::~Application()
+	//{
+	//	game.ShutdownGame();
+	//}
 
-	void Application::Run()
-	{
-		// Init game clock
-		sf::Clock gameClock;
+	//void Application::Run()
+	//{
+	//	// Init game clock
+	//	sf::Clock gameClock;
 
-		// Game loop
-		while (game.window.isOpen()) {
+	//	// Game loop
+	//	while (game.window.isOpen()) {
 
-			float startTime = gameClock.getElapsedTime().asSeconds();
+	//		float startTime = gameClock.getElapsedTime().asSeconds();
 
-			game.HandleWindowEvents();
+	//		game.HandleWindowEvents();
 
-			if (!game.window.isOpen()) {
-				break;
-			}
+	//		if (!game.window.isOpen()) {
+	//			break;
+	//		}
 
-			if (game.UpdateGame(SETTINGS.TIME_PER_FRAME))
-			{
-				// Draw everything here
-				// Clear the window first
-				game.window.clear();
+	//		if (game.UpdateGame(SETTINGS.TIME_PER_FRAME))
+	//		{
+	//			// Draw everything here
+	//			// Clear the window first
+	//			game.window.clear();
 
-				game.DrawGame();
+	//			game.DrawGame();
 
-				// End the current frame, display window contents on screen
-				game.window.display();
-			}
-			else
-			{
-				game.window.close();
-			}
+	//			// End the current frame, display window contents on screen
+	//			game.window.display();
+	//		}
+	//		else
+	//		{
+	//			game.window.close();
+	//		}
 
-			float endTime = gameClock.getElapsedTime().asSeconds();
-			float deltaTime = endTime - startTime;
-			if (deltaTime < SETTINGS.TIME_PER_FRAME) {
-				// Reduce framerate to not spam CPU and GPU
-				sf::sleep(sf::seconds(SETTINGS.TIME_PER_FRAME - deltaTime));
-			}
-		}
-	}
+	//		float endTime = gameClock.getElapsedTime().asSeconds();
+	//		float deltaTime = endTime - startTime;
+	//		if (deltaTime < SETTINGS.TIME_PER_FRAME) {
+	//			// Reduce framerate to not spam CPU and GPU
+	//			sf::sleep(sf::seconds(SETTINGS.TIME_PER_FRAME - deltaTime));
+	//		}
+	//	}
+	//}
 
 }

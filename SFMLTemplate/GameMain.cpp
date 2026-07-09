@@ -6,25 +6,18 @@
 #include "Engine.h"
 #include "Windows.h"
 #include <iostream>
+#include "ResourceSystem.h"
+#include "RenderSystem.h"
 
 const std::string RESOURCES_PATH = "Resources/";
 
 int main()
 {
-	if (AllocConsole())
-	{
-		FILE* fp;
-		freopen_s(&fp, "CONOUT$", "w", stdout);
-		freopen_s(&fp, "CONOUT$", "w", stderr);
-	}
-	else
-	{
-		std::cerr << "Error open console" << std::endl;
-	}
+	XYZEngine::RenderSystem::Instance()->SetMainWindow(new sf::RenderWindow(sf::VideoMode(1280, 720), "XYZRoguelike"));
 
-	Engine engine;
-	engine.Initialization();
-	engine.Run();
+	XYZEngine::ResourceSystem::Instance()->LoadTexture("ball", "Resources/Textures/ball.png");
+
+	XYZEngine::Engine::Instance()->Run();
 
 	sf::RenderWindow window(sf::VideoMode(330, 400), "SFML works!");
 
