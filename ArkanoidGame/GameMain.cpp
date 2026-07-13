@@ -1,5 +1,6 @@
 ﻿#include "Player.h"
 #include "Engine.h"
+#include "Logger.h"
 #include "ResourceSystem.h"
 #include "DeveloperLevel.h"
 #include "Matrix2D.h"
@@ -8,6 +9,8 @@ using namespace RoguelikeGame;
 
 int main()
 {
+	XYZEngine::Engine::Instance()->SetupLogger();
+
 	XYZEngine::Engine::Instance()->CreateWindowNew(1280, 720, "Roguelike");
 	
 	XYZEngine::ResourceSystem::Instance()->LoadTexture("ball", "Resources/Textures/Ball.png");
@@ -21,3 +24,4 @@ int main()
 
 	return 0;
 }
+

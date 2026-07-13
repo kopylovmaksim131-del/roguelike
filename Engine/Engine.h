@@ -1,5 +1,7 @@
 #pragma once
+#ifndef NOMINMAX
 #define NOMINMAX
+#endif
 
 #include "SFML/Graphics.hpp"
 #include "Export.h"
@@ -18,6 +20,7 @@ namespace XYZEngine
 		static Engine* Instance();
 
 		void Run();
+		void SetupLogger();
 
 	private:
 		Engine();

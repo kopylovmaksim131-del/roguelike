@@ -44,16 +44,19 @@ namespace XYZEngine
 	{
 		GameObject* newGameObject = new GameObject();
 		gameObjects.push_back(newGameObject);
+		LOG_INFO("GameWorld::CreateGameObject create object '" + newGameObject->GetName() + "'");
 		return newGameObject;
 	}
 	GameObject* GameWorld::CreateGameObject(std::string name)
 	{
 		GameObject* newGameObject = new GameObject(name);
 		gameObjects.push_back(newGameObject);
+		LOG_INFO("GameWorld::CreateGameObject create object " + name + "");
 		return newGameObject;
 	}
 	void GameWorld::DestroyGameObject(GameObject* gameObject)
 	{
+		LOG_INFO("GameWorld::DestroyGameObject delet object '" + gameObject->GetName() + "'");
 		markedToDestroyGameObjects.push_back(gameObject);
 	}
 	void GameWorld::Clear()
@@ -106,5 +109,22 @@ namespace XYZEngine
 
 			delete gameObjectToDelete;
 		}
+	}
+
+	GameObject* GameWorld::GetGameObjectByName(const std::string& name) 
+	{
+		for (auto obj : gameObjects) 
+		{
+			if (obj->GetName() == name)
+			{
+				return obj;
+			}
+		}
+		return nullptr;
+	}
+
+	const std::vector<GameObject*>& GameWorld::GetGameObjects() const
+	{
+		return gameObjects;
 	}
 }

@@ -22,6 +22,8 @@ namespace XYZEngine
 		void Clear();
 
 		void Print() const;
+		GameObject* GetGameObjectByName(const std::string& name);
+		const std::vector<GameObject*>& GetGameObjects() const;
 	private:
 		GameWorld() {}
 		~GameWorld() {}

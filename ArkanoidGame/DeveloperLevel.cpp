@@ -10,48 +10,9 @@ namespace RoguelikeGame
 {
 	void DeveloperLevel::Start()
 	{
-		ResourceSystem::Instance()->LoadTexture("Background", "Resources/Textures/Background.png");
-
-		auto background = XYZEngine::GameWorld::Instance()->CreateGameObject("Background");
-		background->AddComponent<RoguelikeGame::Background>();
-
-		auto leftWall = XYZEngine::GameWorld::Instance()->CreateGameObject("LeftWall");
-		leftWall->AddComponent<RoguelikeGame::Wall>();
-		auto renderLW = leftWall->GetComponent<XYZEngine::SpriteRendererComponent>();
-		renderLW->SetPixelSize(32, 720);
-		auto transformLW = leftWall->GetComponent<XYZEngine::TransformComponent>();
-		transformLW->SetWorldPosition(16.f, 360.f);
-		
-		auto rightWall = XYZEngine::GameWorld::Instance()->CreateGameObject("RightWall");
-		rightWall->AddComponent<RoguelikeGame::Wall>();
-		auto renderRW = rightWall->GetComponent<XYZEngine::SpriteRendererComponent>();
-		renderRW->SetPixelSize(32, 720);
-		auto transformRW = rightWall->GetComponent<XYZEngine::TransformComponent>();
-		transformRW->SetWorldPosition(1264.f, 360.f);
-		
-		auto upperWall = XYZEngine::GameWorld::Instance()->CreateGameObject("UpperWall");
-		upperWall->AddComponent<RoguelikeGame::Wall>();
-		auto renderUW = upperWall->GetComponent<XYZEngine::SpriteRendererComponent>();
-		renderUW->SetPixelSize(1280, 32);
-		auto transformUW = upperWall->GetComponent<XYZEngine::TransformComponent>();
-		transformUW->SetWorldPosition(640.f, 16.f);
-		
-		auto lowerWall = XYZEngine::GameWorld::Instance()->CreateGameObject("LowerWall");
-		lowerWall->AddComponent<RoguelikeGame::Wall>();
-		auto render = lowerWall->GetComponent<XYZEngine::SpriteRendererComponent>();
-		render->SetPixelSize(1280, 32);
-		auto transform = lowerWall->GetComponent<XYZEngine::TransformComponent>();
-		transform->SetWorldPosition(640.f, 704.f);
-		
-		auto player = XYZEngine::GameWorld::Instance()->CreateGameObject("Player");
-		player->AddComponent<RoguelikeGame::Player>();
-
-		auto enemy = XYZEngine::GameWorld::Instance()->CreateGameObject("Enemy");
-		enemy->AddComponent<RoguelikeGame::Enemy>();
-		auto follow = enemy->AddComponent<XYZEngine::FollowComponent>();
-		follow->SetFollowTarget(player);
-		follow->SetRadius(240.f);
-		follow->SetSpeed(200.f);
+		CreatBackground();
+		CreatPlayer();
+		CreatEnemy();
 
 		ResourceSystem::Instance()->LoadMusic("Sound", "Resources/Sounds/Sound.ogg");
 		XYZEngine::Engine::Instance()->PlayMusic("Sound");
@@ -68,5 +29,44 @@ namespace RoguelikeGame
 			music->stop();
 
 		GameWorld::Instance()->Clear();
+	}
+	void DeveloperLevel::CreatPlayer()
+	{
+		auto player = XYZEngine::GameWorld::Instance()->CreateGameObject("Player");
+		player->AddComponent<RoguelikeGame::Player>();
+	}
+	void DeveloperLevel::CreatEnemy()
+	{
+		auto player = XYZEngine::GameWorld::Instance()->GetGameObjectByName("Player");
+		auto enemy = XYZEngine::GameWorld::Instance()->CreateGameObject("Enemy");
+		enemy->AddComponent<RoguelikeGame::Enemy>();
+		auto follow = enemy->AddComponent<XYZEngine::FollowComponent>();
+		follow->SetFollowTarget(player);
+		follow->SetRadius(240.f);
+		follow->SetSpeed(200.f);
+		auto attack = enemy->GetComponent<XYZEngine::MeleeAttackComponent>();
+		attack->SetTargets(std::vector<GameObject*>{player});
+	}
+	void DeveloperLevel::CreatBackground()
+	{
+		ResourceSystem::Instance()->LoadTexture("Background", "Resources/Textures/Background.png");
+
+		auto background = XYZEngine::GameWorld::Instance()->CreateGameObject("Background");
+		background->AddComponent<RoguelikeGame::Background>();
+
+		CreatWall("LeftWall", 16.f, 360.f, 32, 720);
+		CreatWall("RightWall", 1264.f, 360.f, 32, 720);
+		CreatWall("UpperWall", 640.f, 16.f, 1280, 32);
+		CreatWall("LowerWall", 640.f, 704.f, 1280, 32);
+	}
+
+	void DeveloperLevel::CreatWall(const std::string& name, float x, float y, int width, int height)
+	{
+		auto leftWall = XYZEngine::GameWorld::Instance()->CreateGameObject(name);
+		leftWall->AddComponent<RoguelikeGame::Wall>();
+		auto renderLW = leftWall->GetComponent<XYZEngine::SpriteRendererComponent>();
+		renderLW->SetPixelSize(width, height);
+		auto transformLW = leftWall->GetComponent<XYZEngine::TransformComponent>();
+		transformLW->SetWorldPosition(x, y);
 	}
 }

@@ -5,6 +5,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include "Export.h"
+#include "Logger.h"
 
 namespace XYZEngine
 {

@@ -22,6 +22,19 @@ namespace RoguelikeGame
 		auto body = gameObject->AddComponent<XYZEngine::RigidbodyComponent>();
 
 		auto collider = gameObject->AddComponent<XYZEngine::SpriteColliderComponent>();
+
+		auto hp = gameObject->AddComponent<XYZEngine::HealthComponent>();
+		hp->SetHP(100);
+		hp->SetMaxHP(100);
+
+		auto armore = gameObject->AddComponent<XYZEngine::ArmorComponent>();
+		armore->SetArmore(20);
+		armore->SetMaxArmore(60);
+
+		auto attack = gameObject->AddComponent<XYZEngine::MeleeAttackComponent>();
+		attack->SetAttackRadius(75.f);
+		attack->SetAttackCooldownTime(1.f);
+		attack->SetDamage(15);
 	}
 
 	void Player::Update(float deltaTime)
@@ -34,5 +47,20 @@ namespace RoguelikeGame
 			input->GetHorizontalAxis() * speed,
 			input->GetVerticalAxis() * speed
 			});
+		
+		if (input->GetHorizontalAxis() != 0 || input->GetVerticalAxis() != 0)
+		{
+			lastHorizontalAxis = input->GetHorizontalAxis();
+			lasVerticalAxis = input->GetVerticalAxis();
+		}
+
+		if (input->GetAttackButton())
+		{
+			auto attack = gameObject->GetComponent<XYZEngine::MeleeAttackComponent>();
+			attack->SetShouldAttack(true);
+			attack->SetTargets(attack->FindTargets(lastHorizontalAxis, lasVerticalAxis));
+			input->SetAttackButton(false);
+		}
+
 	}
 }

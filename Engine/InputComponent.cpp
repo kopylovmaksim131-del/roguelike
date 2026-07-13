@@ -10,6 +10,7 @@ namespace XYZEngine
 		verticalAxis = 0.f;
 		horizontalAxis = 0.f;
 
+		auto attack = gameObject->GetComponent<MeleeAttackComponent>();
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
 		{
 			verticalAxis += 1.0f;
@@ -18,7 +19,6 @@ namespace XYZEngine
 		{
 			verticalAxis -= 1.0f;
 		}
-
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
 		{
 			horizontalAxis += 1.0f;
@@ -26,6 +26,10 @@ namespace XYZEngine
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
 		{
 			horizontalAxis -= 1.0f;
+		}
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
+		{
+			attackButtonPress = true;
 		}
 	}
 	void InputComponent::Render()
@@ -40,5 +44,13 @@ namespace XYZEngine
 	float InputComponent::GetVerticalAxis() const
 	{
 		return verticalAxis;
+	}
+	void InputComponent::SetAttackButton(bool attackButton)
+	{
+		attackButtonPress = attackButton;
+	}
+	bool InputComponent::GetAttackButton()
+	{
+		return attackButtonPress;
 	}
 }

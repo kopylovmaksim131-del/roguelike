@@ -13,12 +13,13 @@ namespace XYZEngine
 
 		auto targetPos = followTarget->GetComponent<TransformComponent>()->GetWorldPosition();
 		auto myPos = gameObject->GetComponent<TransformComponent>()->GetWorldPosition();
+		int attackRadius = gameObject->GetComponent<MeleeAttackComponent>()->GetAttackRadius();
 
 		Vector2Df direction = { targetPos.x - myPos.x, targetPos.y - myPos.y };
 
 		float length = std::sqrt(direction.x * direction.x + direction.y * direction.y);
 		
-		if (length > 0 && length < detectionRadius)
+		if (length > attackRadius && length < detectionRadius)
 		{
 			direction.x /= length;
 			direction.y /= length;
@@ -39,6 +40,13 @@ namespace XYZEngine
 	void FollowComponent::SetFollowTarget(GameObject* target)
 	{
 		followTarget = target;
+		auto health = target->GetComponent<HealthComponent>();
+		if (health)
+		{
+			health->SubscribeDeath([this]() {
+				followTarget = nullptr;
+				});
+		}
 	}
 	Vector2Df FollowComponent::GetTargetPosition() const
 	{

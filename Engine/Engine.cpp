@@ -5,7 +5,6 @@
 #include "RenderSystem.h"
 #include "ResourceSystem.h"
 
-
 namespace XYZEngine
 {
 	Engine* Engine::Instance()
@@ -65,5 +64,15 @@ namespace XYZEngine
 
 			RenderSystem::Instance()->GetMainWindow().display();
 		}
+	}
+
+	void Engine::SetupLogger()
+	{
+		auto logger = std::make_shared<Logger>();
+		logger->addSink(std::make_shared<ConsoleSink>());
+		logger->addSink(std::make_shared<FileSink>("log.txt"));
+
+		LoggerRegistry::getInstance().registerLogger("global", logger);
+		LoggerRegistry::getInstance().setDefaultLogger(logger);
 	}
 }

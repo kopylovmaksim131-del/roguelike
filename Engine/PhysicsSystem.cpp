@@ -105,13 +105,14 @@ namespace XYZEngine
 
 	void PhysicsSystem::Subscribe(ColliderComponent* collider)
 	{
+		LOG_INFO("PhysicsSystem::Subscribe — " + collider->GetGameObject()->GetName() + " was subscribe");
 		std::cout << "Subscribe " << collider << std::endl;
 		colliders.push_back(collider);
 	}
 	void PhysicsSystem::Unsubscribe(ColliderComponent* collider)
 	{
+		LOG_INFO("PhysicsSystem::Unsubscribe — " + collider->GetGameObject()->GetName() + " was unsubscribe");
 		std::cout << "Unsubscribe " << collider << std::endl;
-
 		colliders.erase(std::remove_if(colliders.begin(), colliders.end(), [collider](ColliderComponent* obj) { return obj == collider; }), colliders.end());
 	}
 }

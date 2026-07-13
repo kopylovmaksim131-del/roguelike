@@ -34,7 +34,7 @@ namespace XYZEngine
 
 	void CameraComponent::SetBaseResolution(int width, int height)
 	{
-		view->reset(sf::FloatRect(0, 0, width, -height));
+		view->reset(sf::FloatRect(0, 0, (float)width, (float) - height));
 	}
 	void CameraComponent::SetWindow(sf::RenderWindow* newWindow)
 	{
@@ -44,7 +44,7 @@ namespace XYZEngine
 	{
 		if (newZoom <= 0)
 		{
-			std::cout << "Not allowed zoom lesser or equal than zero." << std::endl;
+			LOG_WARN("CameraComponent::ZoomBy: zoom value must be > 0, got " + std::to_string(newZoom));
 			return;
 		}
 		view->zoom(newZoom);

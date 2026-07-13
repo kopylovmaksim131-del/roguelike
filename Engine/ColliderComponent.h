@@ -5,6 +5,7 @@
 #include <functional>
 #include "Component.h"
 #include "Collision.h"
+#include "Logger.h"
 #include "Trigger.h"
 #include "PhysicsSystem.h"
 #include "Export.h"

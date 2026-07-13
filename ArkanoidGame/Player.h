@@ -5,6 +5,9 @@
 #include "SpriteRendererComponent.h"
 #include "RenderSystem.h"
 #include "InputComponent.h"
+#include "HealthComponent.h"
+#include "ArmorComponent.h"
+#include "MeleeAttackComponent.h"
 #include "GameObject.h"
 
 namespace RoguelikeGame
@@ -18,7 +21,9 @@ namespace RoguelikeGame
 		void Update(float deltaTime) override;
 
 		void Render() override {}
-
+	private:
+		float lastHorizontalAxis = 0.f;
+		float lasVerticalAxis = 0.f;
 	};
 }
 

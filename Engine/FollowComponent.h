@@ -7,6 +7,7 @@
 #include "Collision.h"
 #include "Trigger.h"
 #include "PhysicsSystem.h"
+#include "MeleeAttackComponent.h"
 #include "Export.h"
 
 namespace XYZEngine

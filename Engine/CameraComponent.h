@@ -2,6 +2,7 @@
 
 #include "TransformComponent.h"
 #include "Export.h" 
+#include "Logger.h"
 #include <SFML/Graphics/RenderWindow.hpp>
 
 namespace XYZEngine

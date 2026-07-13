@@ -1,0 +1,1751 @@
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, начало процесса загрузки
+[INFO] LoadTexture: name='ball', path='Resources/Textures/Ball.png, загружена успешно
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, начало процесса загрузки
+[INFO] LoadTexture: name='Bonus', path='Resources/Textures/Bonus.png, загружена успешно
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, начало процесса загрузки
+[INFO] LoadTexture: name='Wall', path='Resources/Textures/Wall.png, загружена успешно
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, начало процесса загрузки
+[INFO] LoadTexture: name='Background', path='Resources/Textures/Background.png, загружена успешно
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, начало процесса загрузки
+[INFO] LoadMusic: name='Sound', path='Resources/Sounds/Sound.ogg, загружено успешно
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject создан объект Background
+[INFO] GameWorld::CreateGameObject создан объект LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject создан объект RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject создан объект UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject создан объект LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject создан объект Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject создан объект Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject создан объект Background
+[INFO] GameWorld::CreateGameObject создан объект LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject создан объект RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject создан объект UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject создан объект LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject создан объект Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject создан объект Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] GameWorld::DestroyGameObject delet object 'Player'
+[INFO] PhysicsSystem::Unsubscribe Ч Player was unsubscribe
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] GameWorld::DestroyGameObject delet object 'Player'
+[INFO] PhysicsSystem::Unsubscribe Ч Player was unsubscribe
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] GameWorld::DestroyGameObject delet object 'Player'
+[INFO] PhysicsSystem::Unsubscribe Ч Player was unsubscribe
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] GameWorld::DestroyGameObject delet object 'Player'
+[INFO] PhysicsSystem::Unsubscribe Ч Player was unsubscribe
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] GameWorld::DestroyGameObject delet object 'Player'
+[INFO] PhysicsSystem::Unsubscribe Ч Player was unsubscribe
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] GameWorld::DestroyGameObject delet object 'Player'
+[INFO] PhysicsSystem::Unsubscribe Ч Player was unsubscribe
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] GameWorld::DestroyGameObject delet object 'Player'
+[INFO] PhysicsSystem::Unsubscribe Ч Player was unsubscribe
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='5
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] GameWorld::DestroyGameObject delet object 'Enemy'
+[INFO] PhysicsSystem::Unsubscribe Ч Enemy was unsubscribe
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='5
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] GameWorld::DestroyGameObject delet object 'Enemy'
+[INFO] PhysicsSystem::Unsubscribe Ч Enemy was unsubscribe
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='5
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] GameWorld::DestroyGameObject delet object 'Enemy'
+[INFO] PhysicsSystem::Unsubscribe Ч Enemy was unsubscribe
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='5
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] GameWorld::DestroyGameObject delet object 'Enemy'
+[INFO] PhysicsSystem::Unsubscribe Ч Enemy was unsubscribe
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='5
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] GameWorld::DestroyGameObject delet object 'Player'
+[INFO] PhysicsSystem::Unsubscribe Ч Player was unsubscribe
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='5
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] GameWorld::DestroyGameObject delet object 'Enemy'
+[INFO] PhysicsSystem::Unsubscribe Ч Enemy was unsubscribe
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='5
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] GameWorld::DestroyGameObject delet object 'Player'
+[INFO] PhysicsSystem::Unsubscribe Ч Player was unsubscribe
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='5
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] GameWorld::DestroyGameObject delet object 'Enemy'
+[INFO] PhysicsSystem::Unsubscribe Ч Enemy was unsubscribe
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='5
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] GameWorld::DestroyGameObject delet object 'Enemy'
+[INFO] PhysicsSystem::Unsubscribe Ч Enemy was unsubscribe
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[WARNING] MeleeAttackComponent::SetAttackCooldownTime object cooldown='1.000000
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[WARNING] MeleeAttackComponent::SetAttackCooldownTime object cooldown='1.500000
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='5
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] GameWorld::DestroyGameObject delet object 'Enemy'
+[INFO] PhysicsSystem::Unsubscribe Ч Enemy was unsubscribe
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - starting
+[INFO] ResourceSystem::LoadTexture name='ball', path='Resources/Textures/Ball.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - starting
+[INFO] ResourceSystem::LoadTexture name='Bonus', path='Resources/Textures/Bonus.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - starting
+[INFO] ResourceSystem::LoadTexture name='Wall', path='Resources/Textures/Wall.png - loaded successfully
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - starting
+[INFO] ResourceSystem::LoadTexture name='Background', path='Resources/Textures/Background.png - loaded successfully
+[INFO] GameWorld::CreateGameObject create object Background
+[INFO] GameWorld::CreateGameObject create object LeftWall
+[INFO] PhysicsSystem::Subscribe Ч LeftWall was subscribe
+[INFO] GameWorld::CreateGameObject create object RightWall
+[INFO] PhysicsSystem::Subscribe Ч RightWall was subscribe
+[INFO] GameWorld::CreateGameObject create object UpperWall
+[INFO] PhysicsSystem::Subscribe Ч UpperWall was subscribe
+[INFO] GameWorld::CreateGameObject create object LowerWall
+[INFO] PhysicsSystem::Subscribe Ч LowerWall was subscribe
+[INFO] GameWorld::CreateGameObject create object Player
+[INFO] PhysicsSystem::Subscribe Ч Player was subscribe
+[WARNING] MeleeAttackComponent::SetAttackCooldownTime object cooldown='1.000000
+[INFO] GameWorld::CreateGameObject create object Enemy
+[INFO] PhysicsSystem::Subscribe Ч Enemy was subscribe
+[WARNING] MeleeAttackComponent::SetAttackCooldownTime object cooldown='1.500000
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - starting
+[INFO] ResourceSystem::LoadMusic name='Sound', path='Resources/Sounds/Sound.ogg - loaded successfully
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='5
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='0
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Enemy' attack'
+[INFO] HealthComponent::TakeDamage object name='Player', take damage='10
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] MeleeAttackComponent::Update object name='Player' attack'
+[INFO] HealthComponent::TakeDamage object name='Enemy', take damage='15
+[INFO] GameWorld::DestroyGameObject delet object 'Enemy'
+[INFO] PhysicsSystem::Unsubscribe Ч Enemy was unsubscribe
+[INFO] MeleeAttackComponent::Update object name='Player' attack'

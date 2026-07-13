@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "ResourceSystem.h"
+#include "assert.h"
 
 namespace XYZEngine
 {
@@ -11,6 +12,8 @@ namespace XYZEngine
 
 	void ResourceSystem::LoadTexture(const std::string& name, std::string sourcePath, bool isSmooth)
 	{
+		LOG_INFO("ResourceSystem::LoadTexture name='" + name + "', path='" + sourcePath + " - starting");
+
 		if (textures.find(name) != textures.end())
 		{
 			return;
@@ -21,11 +24,20 @@ namespace XYZEngine
 		{
 			newTexture->setSmooth(isSmooth);
 			textures.emplace(name, newTexture);
+			LOG_INFO("ResourceSystem::LoadTexture name='" + name + "', path='" + sourcePath + " - loaded successfully");
+		}
+		else
+		{
+			LOG_ERROR("ResourceSystem::LoadTexture name='" + name + "', path='" + sourcePath + " - FAILED to load");
+			delete newTexture;
+			assert(false && "Texture failed to load. Check file path and resources.");
 		}
 	}
 	const sf::Texture* ResourceSystem::GetTextureShared(const std::string& name) const
 	{
-		return textures.find(name)->second;
+		auto tex = textures.find(name);
+		assert(tex != textures.end() && "Texture not found");
+		return tex->second;
 	}
 	sf::Texture* ResourceSystem::GetTextureCopy(const std::string& name) const
 	{
@@ -33,6 +45,8 @@ namespace XYZEngine
 	}
 	void ResourceSystem::DeleteSharedTexture(const std::string& name)
 	{
+		LOG_INFO("ResourceSystem::DeleteSharedTexture texture name='" + name + " - was delet");
+
 		auto texturePair = textures.find(name);
 
 		sf::Texture* deletingTexure = texturePair->second;
@@ -42,6 +56,8 @@ namespace XYZEngine
 
 	void ResourceSystem::LoadTextureMap(const std::string& name, std::string sourcePath, sf::Vector2u elementPixelSize, int totalElements, bool isSmooth)
 	{
+		LOG_INFO("ResourceSystem::LoadTextureMap name='" + name + "', path='" + sourcePath + " - starting");
+
 		if (textureMaps.find(name) != textureMaps.end())
 		{
 			return;
@@ -50,6 +66,8 @@ namespace XYZEngine
 		sf::Texture textureMap;
 		if (textureMap.loadFromFile(sourcePath))
 		{
+			LOG_INFO("ResourceSystem::LoadTextureMap name='" + name + "', path='" + sourcePath + " - loaded successfully");
+
 			auto textureMapElements = new std::vector<sf::Texture*>();
 
 			auto textureSize = textureMap.getSize();
@@ -81,10 +99,16 @@ namespace XYZEngine
 
 			textureMaps.emplace(name, *textureMapElements);
 		}
+		else
+		{
+			LOG_ERROR("ResourceSystem::LoadTextureMap name='" + name + "', path='" + sourcePath + " - FAILED to load");
+			assert(false && "Texture map failed to load. Check file path and resources.");
+		}
 	}
 	const sf::Texture* ResourceSystem::GetTextureMapElementShared(const std::string& name, int elementIndex) const
 	{
 		auto textureMap = textureMaps.find(name);
+		assert(textureMap != textureMaps.end() && "Texture map not found");
 		auto textures = textureMap->second;
 		return textures[elementIndex];
 	}
@@ -102,6 +126,7 @@ namespace XYZEngine
 	}
 	void ResourceSystem::DeleteSharedTextureMap(const std::string& name)
 	{
+		LOG_INFO("ResourceSystem::DeleteSharedTextureMap texture map name='" + name + " - was delet");
 		auto textureMap = textureMaps.find(name);
 		auto deletingTextures = textureMap->second;
 
@@ -115,6 +140,8 @@ namespace XYZEngine
 
 	void ResourceSystem::LoadMusic(const std::string& name, std::string sourcePath)
 	{
+		LOG_INFO("ResourceSystem::LoadMusic name='" + name + "', path='" + sourcePath + " - starting");
+
 		if (musics.find(name) != musics.end())
 		{
 			return;
@@ -123,15 +150,23 @@ namespace XYZEngine
 		sf::Music* newMusic = new sf::Music();
 		if (newMusic->openFromFile(sourcePath))
 		{
+			LOG_INFO("ResourceSystem::LoadMusic name='" + name + "', path='" + sourcePath + " - loaded successfully");
 			musics.emplace(name, newMusic);
+		}
+		else
+		{
+			LOG_ERROR("ResourceSystem::LoadMusic name='" + name + "', path='" + sourcePath + " - FAILED to load");
 		}
 	}
 	sf::Music* ResourceSystem::GetMusicShared(const std::string& name) 
 	{
-		return musics.find(name)->second;
+		auto msc = musics.find(name);
+		assert(msc != musics.end() && "Music map not found");
+		return msc->second;
 	}
 	void ResourceSystem::DeleteSharedMusic(const std::string& name)
 	{
+		LOG_INFO("ResourceSystem::DeleteSharedMusic sound buffer name='" + name + " - was delet");
 		auto musicPair = musics.find(name);
 
 		sf::Music* deletingMusic = musicPair->second;
@@ -141,6 +176,8 @@ namespace XYZEngine
 
 	void ResourceSystem::LoadSoundBuffer(const std::string& name, std::string sourcePath)
 	{
+		LOG_INFO("ResourceSystem::LoadSoundBuffer name='" + name + "', path='" + sourcePath + " - starting");
+
 		if (sounds.find(name) != sounds.end())
 		{
 			return;
@@ -149,7 +186,12 @@ namespace XYZEngine
 		sf::SoundBuffer* newSound = new sf::SoundBuffer();
 		if (newSound->loadFromFile(sourcePath))
 		{
+			LOG_INFO("ResourceSystem::LoadSoundBuffer name='" + name + "', path='" + sourcePath + " - loaded successfully");
 			sounds.emplace(name, newSound);
+		}
+		else
+		{
+			LOG_ERROR("ResourceSystem::LoadSoundBuffer name='" + name + "', path='" + sourcePath + " - FAILED to load");
 		}
 	}
 	sf::SoundBuffer* ResourceSystem::GetSoundBufferShared(const std::string& name)
@@ -158,6 +200,7 @@ namespace XYZEngine
 	}
 	void ResourceSystem::DeleteSharedSoundBuffer(const std::string& name)
 	{
+		LOG_INFO("ResourceSystem::GetSoundBufferShared sound buffer name='" + name + " - was delet");
 		auto soundPair = sounds.find(name);
 
 		sf::SoundBuffer* deletingSound = soundPair->second;

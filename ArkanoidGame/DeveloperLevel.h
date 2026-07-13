@@ -18,7 +18,10 @@ namespace RoguelikeGame
 		void Start() override;
 		void Restart() override;
 		void Stop() override;
-	/*private:
-		std::shared_ptr<Player> player;*/
+	private:
+		void CreatPlayer();
+		void CreatEnemy();
+		void CreatBackground();
+		void CreatWall(const std::string& name, float x, float y, int width, int height);
 	};
 }
