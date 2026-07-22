@@ -7,9 +7,26 @@ namespace XYZEngine
 	{
 
 	}
+	FollowComponent::~FollowComponent()
+	{
+		if (followTarget)
+		{
+			auto health = followTarget->GetComponent<HealthComponent>();
+			if (health)
+			{
+				health->UnsubscribeDeath([this]() {
+					followTarget = nullptr;
+					});
+			}
+		}
+	}
 	void FollowComponent::Update(float deltaTime)
 	{
-		if (!followTarget) return;
+		if (!followTarget || !followTarget->IsAlive())
+		{
+			followTarget = nullptr;
+			return;
+		}
 
 		auto targetPos = followTarget->GetComponent<TransformComponent>()->GetWorldPosition();
 		auto myPos = gameObject->GetComponent<TransformComponent>()->GetWorldPosition();

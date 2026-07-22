@@ -58,6 +58,11 @@ namespace XYZEngine
 		}
 	}
 
+	bool GameObject::IsAlive() const
+	{
+		return isAlive;
+	}
+
 	void GameObject::AddChild(GameObject* child)
 	{
 		children.push_back(child);

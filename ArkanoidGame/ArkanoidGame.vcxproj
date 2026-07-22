@@ -165,13 +165,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
-    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="CreepFactory.cpp" />
+    <ClCompile Include="CreepSpawner.cpp" />
+    <ClCompile Include="Floor.cpp" />
     <ClCompile Include="DeveloperLevel.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameStateDate.cpp" />
     <ClCompile Include="GameStateGameWin.cpp" />
+    <ClCompile Include="MazeGenerator.cpp" />
+    <ClCompile Include="MeleeEnemy.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="RangeEnemy.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameMain.cpp" />
@@ -186,7 +191,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
-    <ClInclude Include="Background.h" />
+    <ClInclude Include="CreepFactory.h" />
+    <ClInclude Include="CreepSpawner.h" />
+    <ClInclude Include="Floor.h" />
     <ClInclude Include="DeveloperLevel.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="GameMemento.h" />
@@ -194,7 +201,10 @@
     <ClInclude Include="GameStateData.h" />
     <ClInclude Include="GameStateGameWin.h" />
     <ClInclude Include="LevelLoader.h" />
+    <ClInclude Include="MazeGenerator.h" />
+    <ClInclude Include="MeleeEnemy.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="RangeEnemy.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameSettings.h" />

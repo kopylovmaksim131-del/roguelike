@@ -39,7 +39,17 @@ namespace XYZEngine
 			DestroyGameObjectImmediate(markedToDestroyGameObjects[i]);
 		}
 	}
-
+	void GameWorld::SetActiveScene(std::shared_ptr<Scene> activeScene)
+	{
+		scene = activeScene;
+	}
+	void GameWorld::SceneUpdate(float deltaTime)
+	{
+		if (scene)
+		{
+			scene->Update(deltaTime);
+		}
+	}
 	GameObject* GameWorld::CreateGameObject()
 	{
 		GameObject* newGameObject = new GameObject();
@@ -57,6 +67,8 @@ namespace XYZEngine
 	void GameWorld::DestroyGameObject(GameObject* gameObject)
 	{
 		LOG_INFO("GameWorld::DestroyGameObject delet object '" + gameObject->GetName() + "'");
+		LOG_INFO("GameWorld::DestroyGameObject: " + gameObject->GetName() + " isAlive = false");
+		gameObject->isAlive = false;
 		markedToDestroyGameObjects.push_back(gameObject);
 	}
 	void GameWorld::Clear()

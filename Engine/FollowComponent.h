@@ -16,6 +16,7 @@ namespace XYZEngine
 	{
 	public:
 		FollowComponent(GameObject* gameObject);
+		~FollowComponent();
 
 		void Update(float deltaTime) override;
 		void Render() override;

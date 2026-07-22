@@ -59,6 +59,7 @@ namespace XYZEngine
 
 			GameWorld::Instance()->Update(deltaTime);
 			GameWorld::Instance()->FixedUpdate(deltaTime);
+			GameWorld::Instance()->SceneUpdate(deltaTime);
 			GameWorld::Instance()->Render();
 			GameWorld::Instance()->LateUpdate();
 

@@ -8,23 +8,17 @@
 #include "ArmorComponent.h"
 #include "MeleeAttackComponent.h"
 #include "GameObject.h"
+#include "Player.h"
+#include "FollowComponent.h"
 
 namespace RoguelikeGame
 {
-	class Enemy : public XYZEngine::Component
+	class Enemy
 	{
-
 	public:
-		Enemy(XYZEngine::GameObject* gameObject);
-
-		void Update(float deltaTime) override;
-
-		void Render() override {}
-
-		int GetAttackRadius();
-
-	private:
-		int attackRadius = 70;
+		Enemy(const XYZEngine::Vector2Df& position, int textureMapIndex, XYZEngine::GameObject* player);
+	protected:
+		XYZEngine::GameObject* gameObject;
 	};
 }
 

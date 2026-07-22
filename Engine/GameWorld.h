@@ -3,6 +3,7 @@
 #include "GameObject.h"
 #include "PhysicsSystem.h"
 #include "Export.h"
+#include "Scene.h"
 
 namespace XYZEngine
 {
@@ -15,6 +16,8 @@ namespace XYZEngine
 		void FixedUpdate(float deltaTime);
 		void Render();
 		void LateUpdate();
+		void SetActiveScene(std::shared_ptr<Scene> activeScene);
+		void SceneUpdate(float deltaTime);
 
 		GameObject* CreateGameObject();
 		GameObject* CreateGameObject(std::string name);
@@ -35,6 +38,7 @@ namespace XYZEngine
 
 		std::vector<GameObject*> gameObjects = {};
 		std::vector<GameObject*> markedToDestroyGameObjects = {};
+		std::shared_ptr<Scene> scene;
 
 		void DestroyGameObjectImmediate(GameObject* gameObject);
 	};

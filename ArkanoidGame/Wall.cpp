@@ -2,20 +2,27 @@
 #include <ResourceSystem.h>
 #include <SpriteColliderComponent.h>
 
-namespace RoguelikeGame
+RoguelikeGame::Wall::Wall(const XYZEngine::Vector2Df position, int textureMapIndex)
 {
-	Wall::Wall(XYZEngine::GameObject* gameObject) : XYZEngine::Component(gameObject)
-	{
-		auto wallRenderer = gameObject->AddComponent<XYZEngine::SpriteRendererComponent>();
-		wallRenderer->SetTexture(*XYZEngine::ResourceSystem::Instance()->GetTextureShared("Wall"));
+	gameObject = XYZEngine::GameWorld::Instance()->CreateGameObject("Wall");
+	auto transform = gameObject->GetComponent<XYZEngine::TransformComponent>();
+	transform->SetWorldPosition(position);
 
-		auto body = gameObject->AddComponent<XYZEngine::RigidbodyComponent>();
-		body->SetKinematic(true);
+	auto renderer = gameObject->AddComponent<XYZEngine::SpriteRendererComponent>();
 
-		gameObject->AddComponent<XYZEngine::SpriteColliderComponent>();
+	auto tex = XYZEngine::ResourceSystem::Instance()->GetTextureMapElementShared("level_walls", textureMapIndex);
+	if (!tex) {
+		std::cerr << "TextureMapElement is NULL for index " << textureMapIndex << std::endl;
+		return;
 	}
+	renderer->SetTexture(*tex);
 
-	void Wall::Update(float deltaTime)
-	{
-	}
+	//renderer->SetTexture(*XYZEngine::ResourceSystem::Instance()->GetTextureMapElementShared("level_walls", textureMapIndex));
+	//renderer->SetTexture(*XYZEngine::ResourceSystem::Instance()->GetTextureShared("Wall"));
+	renderer->SetPixelSize(128, 128);
+
+	auto rigidbody = gameObject->AddComponent<XYZEngine::RigidbodyComponent>();
+	rigidbody->SetKinematic(true);
+
+	auto collider = gameObject->AddComponent<XYZEngine::SpriteColliderComponent>();
 }

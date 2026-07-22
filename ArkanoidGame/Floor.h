@@ -9,10 +9,10 @@
 
 namespace RoguelikeGame
 {
-	class Wall
+	class Floor
 	{
 	public:
-		Wall(const XYZEngine::Vector2Df position, int textureMapIndex);
+		Floor(const XYZEngine::Vector2Df& position, int textureMapIndex);
 	private:
 		XYZEngine::GameObject* gameObject;
 	};

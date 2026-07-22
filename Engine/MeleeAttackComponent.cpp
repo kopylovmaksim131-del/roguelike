@@ -1,6 +1,5 @@
 #include "pch.h"
 #include "MeleeAttackComponent.h"
-#include "assert.h"
 
 namespace XYZEngine
 {
@@ -9,6 +8,19 @@ namespace XYZEngine
 	}
 	MeleeAttackComponent::~MeleeAttackComponent()
 	{
+		for (auto target : attackTargets)
+		{
+			auto health = target->GetComponent<HealthComponent>();
+			if (health)
+			{
+				health->UnsubscribeDeath([this, target]() {
+					attackTargets.erase(
+						std::remove(attackTargets.begin(), attackTargets.end(), target),
+						attackTargets.end()
+					);
+					});
+			}
+		}
 	}
 	void MeleeAttackComponent::Update(float deltaTime)
 	{
@@ -20,11 +32,12 @@ namespace XYZEngine
 		}
 		if (shouldAttack && attackCooldown >= attackCooldownTime)
 		{
-			auto name = gameObject->GetName();
-			LOG_INFO("MeleeAttackComponent::Update object name='" + name + "' attack'");
+			LOG_INFO("MeleeAttackComponent::Update object name='" + gameObject->GetName() + "' attack'");
 
 			for (auto target : attackTargets)
 			{
+				if (!target->IsAlive()) continue;
+
 				auto targetPos = target->GetComponent<TransformComponent>()->GetWorldPosition();
 				auto myPos = gameObject->GetComponent<TransformComponent>()->GetWorldPosition();
 
@@ -36,15 +49,22 @@ namespace XYZEngine
 				{
 					if (target->GetComponent<ArmorComponent>())
 					{
-						target->GetComponent<HealthComponent>()->TakeDamage(target->GetComponent<ArmorComponent>()->TakeDamage(damage));
+						target->GetComponent<HealthComponent>()->TakeDamage(
+							target->GetComponent<ArmorComponent>()->TakeDamage(damage));
 					}
 					else
 					{
 						target->GetComponent<HealthComponent>()->TakeDamage(damage);
 					}
-
 				}
 			}
+
+			attackTargets.erase(
+				std::remove_if(attackTargets.begin(), attackTargets.end(),
+					[](GameObject* target) { return !target->IsAlive(); }),
+				attackTargets.end()
+			);
+
 			attackCooldown = 0.f;
 			shouldAttack = false;
 		}
@@ -62,8 +82,6 @@ namespace XYZEngine
 	}
 	void MeleeAttackComponent::SetAttackCooldownTime(float cooldown)
 	{
-		assert(cooldown > 0 && "Cooldown must be positive");
-		LOG_WARN("MeleeAttackComponent::SetAttackCooldownTime object cooldown='" + std::to_string(cooldown));
 		attackCooldownTime = cooldown;
 	}
 	void MeleeAttackComponent::SetAttackRadius(float radius)
@@ -76,6 +94,20 @@ namespace XYZEngine
 	}
 	void MeleeAttackComponent::SetTargets(std::vector<GameObject*> targets)
 	{
+		for (auto oldTarget : attackTargets)
+		{
+			auto health = oldTarget->GetComponent<HealthComponent>();
+			if (health)
+			{
+				health->UnsubscribeDeath([this, oldTarget]() {
+					attackTargets.erase(
+						std::remove(attackTargets.begin(), attackTargets.end(), oldTarget),
+						attackTargets.end()
+					);
+					});
+			}
+		}
+
 		attackTargets = targets;
 		for (auto target : attackTargets)
 		{

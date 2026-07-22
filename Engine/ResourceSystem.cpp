@@ -1,6 +1,5 @@
 #include "pch.h"
 #include "ResourceSystem.h"
-#include "assert.h"
 
 namespace XYZEngine
 {
@@ -29,15 +28,11 @@ namespace XYZEngine
 		else
 		{
 			LOG_ERROR("ResourceSystem::LoadTexture name='" + name + "', path='" + sourcePath + " - FAILED to load");
-			delete newTexture;
-			assert(false && "Texture failed to load. Check file path and resources.");
 		}
 	}
 	const sf::Texture* ResourceSystem::GetTextureShared(const std::string& name) const
 	{
-		auto tex = textures.find(name);
-		assert(tex != textures.end() && "Texture not found");
-		return tex->second;
+		return textures.find(name)->second;
 	}
 	sf::Texture* ResourceSystem::GetTextureCopy(const std::string& name) const
 	{
@@ -102,13 +97,11 @@ namespace XYZEngine
 		else
 		{
 			LOG_ERROR("ResourceSystem::LoadTextureMap name='" + name + "', path='" + sourcePath + " - FAILED to load");
-			assert(false && "Texture map failed to load. Check file path and resources.");
 		}
 	}
 	const sf::Texture* ResourceSystem::GetTextureMapElementShared(const std::string& name, int elementIndex) const
 	{
 		auto textureMap = textureMaps.find(name);
-		assert(textureMap != textureMaps.end() && "Texture map not found");
 		auto textures = textureMap->second;
 		return textures[elementIndex];
 	}
@@ -160,9 +153,7 @@ namespace XYZEngine
 	}
 	sf::Music* ResourceSystem::GetMusicShared(const std::string& name) 
 	{
-		auto msc = musics.find(name);
-		assert(msc != musics.end() && "Music map not found");
-		return msc->second;
+		return musics.find(name)->second;
 	}
 	void ResourceSystem::DeleteSharedMusic(const std::string& name)
 	{

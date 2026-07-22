@@ -124,6 +124,8 @@ namespace XYZEngine
 		friend class GameWorld;
 		friend class TransformComponent;
 
+		bool IsAlive() const;
+
 	private:
 		std::string name;
 
@@ -132,5 +134,6 @@ namespace XYZEngine
 
 		void AddChild(GameObject* child);
 		void RemoveChild(GameObject* child);
+		bool isAlive = true;
 	};
 }

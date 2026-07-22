@@ -21,6 +21,7 @@ namespace XYZEngine
 		void RestoreHP(int hp);
 		int GetHP();
 		void SubscribeDeath(std::function<void()> onDeath);
+		void UnsubscribeDeath(std::function<void()> onDeath);
 
 	private:
 		int healthPoint = 0;

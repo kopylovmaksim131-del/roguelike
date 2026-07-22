@@ -13,6 +13,7 @@ namespace XYZEngine
 	{
 		if (healthPoint == 0 && maxHealthPoint > 0)
 		{
+			LOG_INFO("HealthComponent: calling " + std::to_string(deathSubscribers.size()) + " death subscribers");
 			for (auto& subscriber : deathSubscribers)
 			{
 				subscriber(); 
@@ -54,5 +55,15 @@ namespace XYZEngine
 	void HealthComponent::SubscribeDeath(std::function<void()> onDeath)
 	{
 		deathSubscribers.push_back(onDeath);
+	}
+	void HealthComponent::UnsubscribeDeath(std::function<void()> onDeath)
+	{
+		deathSubscribers.erase(
+			std::remove_if(deathSubscribers.begin(), deathSubscribers.end(),
+				[&onDeath](const std::function<void()>& stored) {
+					return stored.target<void()>() == onDeath.target<void()>();
+				}),
+			deathSubscribers.end()
+		);
 	}
 }
