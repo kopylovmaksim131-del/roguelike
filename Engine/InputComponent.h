@@ -20,9 +20,26 @@ namespace XYZEngine
 		float GetVerticalAxis() const;
 		void SetAttackButton(bool attackButton);
 		bool GetAttackButton();
+		bool GetUseHealPotion();
+		void SetUseHealPotion();
+		bool GetUseArmorPotion();
+		void SetUseArmorPotion();
+		bool GetUseSpeedPotion();
+		void SetUseSpeedPotion();
+		bool GetUseStrenghtPotion();
+		void SetUseStrenghtPotion();
 	private:
 		float horizontalAxis = 0.f;
 		float verticalAxis = 0.f;
 		bool attackButtonPress = false;
+		bool useHealPotion = false;
+		bool useArmorPotion = false;
+		bool useSpeedPotion = false;
+		bool useStrenghtPotion = false;
+		bool previousHealPotionState = false;
+		bool previousArmorPotionState = false;
+		bool previousSpeedPotionState = false;
+		bool previousStrengthPotionState = false;
+
 	};
 }

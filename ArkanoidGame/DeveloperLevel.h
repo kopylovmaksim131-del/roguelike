@@ -8,6 +8,9 @@
 #include "Floor.h"
 #include "Wall.h"
 #include "LevelExit.h"
+#include "Loot.h"
+#include "Logger.h"
+#include "LootFactory.h"
 
 using namespace XYZEngine;
 
@@ -34,7 +37,6 @@ namespace RoguelikeGame
 		void UpdateFader(float deltaTime);
 		void MovePlayerToExit(float deltaTime);
 
-		std::unique_ptr<Player> player;
 		std::unique_ptr<LevelExit> exit;
 		bool exitActive = false;
 		bool isTransitioning = false;
