@@ -65,28 +65,28 @@ namespace XYZEngine
 	void SummoningBossSpecial::CreateMeleeEnemy(GameObject* gameObject, GameObject* target)
 	{
 		auto hp = gameObject->GetComponent<HealthComponent>();
-		hp->SetHP(1);
-		hp->SetMaxHP(70);
+		hp->SetHP(30);
+		hp->SetMaxHP(30);
 
 		auto armor = gameObject->GetComponent<ArmorComponent>();
-		armor->SetArmore(1);
+		armor->SetArmore(4);
 
 		auto attack = gameObject->AddComponent<MeleeAttackComponent>();
 		attack->SetTargets(std::vector<GameObject*> { target });
 		attack->SetAttackMode(true);
 		attack->SetAttackRadius(150.f);
 		attack->SetAttackCooldownTime(1.5f);
-		attack->SetDamage(10);
+		attack->SetDamage(8);
 	}
 
 	void SummoningBossSpecial::CreateRangeEnemy(GameObject* gameObject, GameObject* target)
 	{
 		auto hp = gameObject->GetComponent<HealthComponent>();
-		hp->SetHP(40);
-		hp->SetMaxHP(40);
+		hp->SetHP(20);
+		hp->SetMaxHP(20);
 
 		auto armor = gameObject->GetComponent<ArmorComponent>();
-		armor->SetArmore(5);
+		armor->SetArmore(6);
 
 		auto attack = gameObject->AddComponent<RangeAttackComponent>();
 		attack->SetTargets(std::vector<GameObject*> { target });

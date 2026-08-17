@@ -4,7 +4,13 @@
 
 namespace RoguelikeGame
 {
-	Player::Player(const XYZEngine::Vector2Df& position, int textureMapIndex)
+	Player* Player::Instance()
+	{
+		static Player instance;
+		return &instance;
+	}
+
+	void Player::Init(const XYZEngine::Vector2Df& position, int textureMapIndex)
 	{
 		gameObject = XYZEngine::GameWorld::Instance()->CreateGameObject("Player");
 		auto transform = gameObject->GetComponent<XYZEngine::TransformComponent>();
@@ -25,23 +31,26 @@ namespace RoguelikeGame
 		auto collider = gameObject->AddComponent<XYZEngine::SpriteColliderComponent>();
 
 		auto hp = gameObject->AddComponent<XYZEngine::HealthComponent>();
-		hp->SetHP(100);
-		hp->SetMaxHP(100);
+		hp->SetHP(currentHealth);
+		hp->SetMaxHP(maxHealth);
 		hp->SubscribeDeath([this]() {
 			gameObject = nullptr;
 			});
 
 		auto armore = gameObject->AddComponent<XYZEngine::ArmorComponent>();
-		armore->SetArmore(20);
-		armore->SetMaxArmore(60);
+		armore->SetArmore(currentArmor);
+		armore->SetMaxArmore(maxArmor);
 
 		auto attack = gameObject->AddComponent<XYZEngine::MeleeAttackComponent>();
 		attack->SetAttackRadius(220.f);
-		attack->SetAttackCooldownTime(1.f);
-		attack->SetDamage(15);
+		attack->SetAttackCooldownTime(0.8f);
+		attack->SetDamage(damage);
 
 		auto animation = gameObject->AddComponent<XYZEngine::AnimationComponent>();
-		animation->SetAnimation("player", 0.1f, 2);
+		animation->SetAnimation("player", 0.1f, 4);
+
+		if (!inventory)
+			inventory = std::make_unique<Inventory>(this);
 	}
 
 	void Player::Update(float deltaTime)
@@ -53,7 +62,6 @@ namespace RoguelikeGame
 
 		if (input && rigidbody)
 		{
-			float speed = 400.0f;
 			rigidbody->SetLinearVelocity({
 				input->GetHorizontalAxis() * speed,
 				input->GetVerticalAxis() * speed
@@ -75,23 +83,79 @@ namespace RoguelikeGame
 					input->SetAttackButton(false);
 				}
 			}
-		}
 
-		animationTimer += deltaTime;
-		if (animationTimer >= frameDuration)
-		{
-			animationTimer = 0.f;
-			currentFrame = (currentFrame + 1) % totalFrames;
-
-			auto renderer = gameObject->GetComponent<XYZEngine::SpriteRendererComponent>();
-			if (renderer)
+			if (input->GetUseHealPotion())
 			{
-				renderer->SetTexture(*XYZEngine::ResourceSystem::Instance()->GetTextureMapElementShared("player", currentFrame));
+				input->SetUseHealPotion();
+				inventory->UseHealPotion();
+			}
+
+			if (input->GetUseArmorPotion())
+			{
+				input->SetUseArmorPotion();
+				inventory->UseArmorPotion();
+			}
+
+			if (input->GetUseSpeedPotion())
+			{
+				input->SetUseSpeedPotion();
+				inventory->UseSpeedPotion();
+			}
+
+			if (input->GetUseStrenghtPotion())
+			{
+				input->SetUseStrenghtPotion();
+				inventory->UseStrenghtPotion();
 			}
 		}
 	}
+
 	XYZEngine::GameObject* Player::GetPlayerGameObject()
 	{
 		return gameObject;
 	}
+
+	Inventory* Player::GetInventory()
+	{
+		return inventory.get();
+	}
+
+	void Player::IncreaseSpeed(float increaseValue)
+	{
+		speed += increaseValue;
+	}
+
+	void Player::IncreaseDamage(int increaseValue)
+	{
+		damage += increaseValue;
+		if (gameObject)
+		{
+			auto attack = gameObject->GetComponent<XYZEngine::MeleeAttackComponent>();
+			if (attack)
+				attack->SetDamage(damage);
+		}
+	}
+
+	void Player::IncreaseHealth(int increaseValue)
+	{
+		currentHealth = std::min(maxHealth, currentHealth + increaseValue);
+		if (gameObject)
+		{
+			auto health = gameObject->GetComponent<XYZEngine::HealthComponent>();
+			if (health)
+				health->RestoreHP(increaseValue);
+		}
+	}
+
+	void Player::IncreaseArmor(int increaseValue)
+	{
+		currentArmor = std::min(maxArmor, currentArmor + increaseValue);
+		if (gameObject)
+		{
+			auto armor = gameObject->GetComponent<XYZEngine::ArmorComponent>();
+			if (armor)
+				armor->RestoreArmore(increaseValue);
+		}
+	}
 }
+

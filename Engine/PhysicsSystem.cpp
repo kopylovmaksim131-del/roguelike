@@ -114,5 +114,13 @@ namespace XYZEngine
 		LOG_INFO("PhysicsSystem::Unsubscribe — " + collider->GetGameObject()->GetName() + " was unsubscribe");
 		std::cout << "Unsubscribe " << collider << std::endl;
 		colliders.erase(std::remove_if(colliders.begin(), colliders.end(), [collider](ColliderComponent* obj) { return obj == collider; }), colliders.end());
+
+		for (auto it = triggersEnteredPair.begin(); it != triggersEnteredPair.end(); )
+		{
+			if (it->first == collider || it->second == collider)
+				it = triggersEnteredPair.erase(it);
+			else
+				++it;
+		}
 	}
 }

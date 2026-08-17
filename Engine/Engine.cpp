@@ -76,4 +76,18 @@ namespace XYZEngine
 		LoggerRegistry::getInstance().registerLogger("global", logger);
 		LoggerRegistry::getInstance().setDefaultLogger(logger);
 	}
+	void Engine::LogInfo(const std::string& message)
+	{
+		LOG_INFO(message);
+	}
+
+	void Engine::LogWarning(const std::string& message)
+	{
+		LOG_WARN(message);
+	}
+
+	void Engine::LogError(const std::string& message)
+	{
+		LOG_ERROR(message);
+	}
 }

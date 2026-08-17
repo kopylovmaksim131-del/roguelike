@@ -6,11 +6,11 @@ namespace RoguelikeGame
 		: Enemy(position, textureMapIndex, player)
 	{
 		auto hp = gameObject->GetComponent<XYZEngine::HealthComponent>();
-		hp->SetHP(30);
-		hp->SetMaxHP(30);
+		hp->SetHP(150);
+		hp->SetMaxHP(150);
 
 		auto armor = gameObject->GetComponent<XYZEngine::ArmorComponent>();
-		armor->SetArmore(1);
+		armor->SetArmore(20);
 
 		auto phase = gameObject->AddComponent<XYZEngine::BossPhaseComponent>();
 

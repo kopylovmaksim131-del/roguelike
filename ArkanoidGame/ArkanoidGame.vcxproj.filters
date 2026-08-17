@@ -88,6 +88,15 @@
     <ClCompile Include="MageBoss.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
+    <ClCompile Include="LootFactory.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Loot.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -142,5 +151,8 @@
     <ClInclude Include="LevelExit.h" />
     <ClInclude Include="SummonBoss.h" />
     <ClInclude Include="MageBoss.h" />
+    <ClInclude Include="LootFactory.h" />
+    <ClInclude Include="Loot.h" />
+    <ClInclude Include="Inventory.h" />
   </ItemGroup>
 </Project>

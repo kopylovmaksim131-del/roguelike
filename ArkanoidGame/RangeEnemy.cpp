@@ -6,8 +6,8 @@ namespace RoguelikeGame
 		: Enemy(position, textureMapIndex, player)
 	{
 		auto hp = gameObject->GetComponent<XYZEngine::HealthComponent>();
-		hp->SetHP(40);
-		hp->SetMaxHP(40);
+		hp->SetHP(35);
+		hp->SetMaxHP(35);
 
 		auto armor = gameObject->GetComponent<XYZEngine::ArmorComponent>();
 		armor->SetArmore(5);
@@ -17,6 +17,6 @@ namespace RoguelikeGame
 		attack->SetAttackMode(true);
 		attack->SetAttackRadius(550.f);
 		attack->SetAttackCooldownTime(1.5f);
-		attack->SetDamage(6);
+		attack->SetDamage(12);
 	}
 }

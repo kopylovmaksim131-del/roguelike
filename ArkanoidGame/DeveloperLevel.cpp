@@ -18,32 +18,39 @@ namespace RoguelikeGame
 		faderIsActive = false;
 		this->SetFinished(false);
 		isBossLevel = !isBossLevel;
-		
+
 		CreatBackground();
 
 		std::vector<std::pair<int, int>> freeCells = GetFreeCells();
+
+		LootFactory lootFactoryHealin(LootType::HealingPotion, 3, freeCells, "HealingPotion");
+		LootFactory lootFactoryArmore(LootType::ArmorePotion, 2, freeCells, "ArmorPotion");
+		
 
 		XYZEngine::Vector2Df exitPos = GetRandomFreeCells(freeCells);
 		exit = std::make_unique<LevelExit>(XYZEngine::Vector2Df{ exitPos.x, exitPos.y }, 16);
 
 		XYZEngine::Vector2Df playerPos = GetRandomFreeCells(freeCells);
-		player = std::make_unique<Player>(playerPos, 0);
-
+		Player::Instance()->Init(playerPos, 0);
 		CreepFactory factory;
 		CreepSpawner spawner(&factory);
 
 		if (isBossLevel)
 		{
+			LootFactory lootFactoryStrength(LootType::StrengthPotion, 1, freeCells, "StrengthPotion");
+			LootFactory lootFactorySpeed(LootType::SpeedPotion, 1, freeCells, "SpeedPotion");
+
 			EnemyType bossType = (std::rand() % 2 == 0) ? EnemyType::Mage : EnemyType::Summoner;
-			spawner.SpawnCreeps(bossType, 1, player->GetPlayerGameObject(), freeCells);
+			spawner.SpawnCreeps(bossType, 1, Player::Instance()->GetPlayerGameObject(), freeCells);
 			ResourceSystem::Instance()->LoadMusic("BossSound", "Resources/Sounds/bossFight1.wav");
 			XYZEngine::Engine::Instance()->PlayMusic("BossSound");
 			soundName = "BossSound";
 		}
 		else
 		{
-			spawner.SpawnCreeps(EnemyType::Melee, 1, player->GetPlayerGameObject(), freeCells);
-			spawner.SpawnCreeps(EnemyType::Range, 2, player->GetPlayerGameObject(), freeCells);
+			int enemyCount = 1 + std::rand() % 6;
+			spawner.SpawnCreeps(EnemyType::Melee, enemyCount, Player::Instance()->GetPlayerGameObject(), freeCells);
+			spawner.SpawnCreeps(EnemyType::Range, enemyCount, Player::Instance()->GetPlayerGameObject(), freeCells);
 			ResourceSystem::Instance()->LoadMusic("Sound", "Resources/Sounds/Sound.ogg");
 			XYZEngine::Engine::Instance()->PlayMusic("Sound");
 			soundName = "Sound";
@@ -58,7 +65,7 @@ namespace RoguelikeGame
 
 	void DeveloperLevel::Stop()
 	{
-		auto music = ResourceSystem::Instance()->GetMusicShared("Sound");
+		auto music = ResourceSystem::Instance()->GetMusicShared(soundName);
 		if (music)
 			music->stop();
 
@@ -67,12 +74,13 @@ namespace RoguelikeGame
 
 	void DeveloperLevel::Update(float deltaTime)
 	{
-		if (!player->GetPlayerGameObject() || !player->GetPlayerGameObject()->IsAlive())
+		if (!Player::Instance()->GetPlayerGameObject() || !Player::Instance()->GetPlayerGameObject()->IsAlive())
 		{
+			isBossLevel = true;
 			Restart();
 			return;
 		}
-		player->Update(deltaTime);
+		Player::Instance()->Update(deltaTime);
 
 		if (CountEnemies() == 1 && !exitActive)
 			ActivateExit();
@@ -88,6 +96,22 @@ namespace RoguelikeGame
 
 		if (fadeTimer <= 0.f)
 			this->SetFinished(true);
+	}
+
+	int DeveloperLevel::CountEnemies()
+	{
+		std::vector<XYZEngine::GameObject*> objects = XYZEngine::GameWorld::Instance()->GetGameObjects();
+
+		int enemyCount = 0;
+		for (auto obj : objects)
+		{
+			if (obj->GetComponent<XYZEngine::HealthComponent>())
+			{
+				enemyCount++;
+			}
+		}
+
+		return enemyCount;
 	}
 
 	void DeveloperLevel::ActivateExit()
@@ -113,7 +137,7 @@ namespace RoguelikeGame
 	{
 		faderIsActive = true;
 
-		auto playerObj = player->GetPlayerGameObject();
+		auto playerObj = Player::Instance()->GetPlayerGameObject();
 
 		auto gameObject = GameWorld::Instance()->CreateGameObject("Fader");
 
@@ -142,7 +166,7 @@ namespace RoguelikeGame
 
 	void DeveloperLevel::MovePlayerToExit(float deltaTime)
 	{
-		auto playerPos = player->GetPlayerGameObject()->GetComponent<TransformComponent>()->GetWorldPosition();
+		auto playerPos = Player::Instance()->GetPlayerGameObject()->GetComponent<TransformComponent>()->GetWorldPosition();
 		auto exitPos = exit->GetGameObject()->GetComponent<TransformComponent>()->GetWorldPosition();
 
 		float dx = exitPos.x - playerPos.x;
@@ -154,29 +178,13 @@ namespace RoguelikeGame
 			float step = 150.f * deltaTime;
 			if (step > length)
 				step = length;
-			player->GetPlayerGameObject()->GetComponent<TransformComponent>()->MoveBy({ dx / length * step, dy / length * step });
+			Player::Instance()->GetPlayerGameObject()->GetComponent<TransformComponent>()->MoveBy({ dx / length * step, dy / length * step });
 		}
 	}
 
 	void DeveloperLevel::SetIsTransitioning()
 	{
 		isTransitioning = true;
-	}
-
-	int DeveloperLevel::CountEnemies()
-	{
-		std::vector<XYZEngine::GameObject*> objects = XYZEngine::GameWorld::Instance()->GetGameObjects();
-
-		int enemyCount = 0;
-		for (auto obj : objects)
-		{
-			if (obj->GetComponent<XYZEngine::HealthComponent>())
-			{
-				enemyCount++;
-			}
-		}
-
-		return enemyCount;
 	}
 
 	void DeveloperLevel::CreatBackground()
