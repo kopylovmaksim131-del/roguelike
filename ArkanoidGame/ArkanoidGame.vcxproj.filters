@@ -82,6 +82,12 @@
     <ClCompile Include="LevelExit.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
+    <ClCompile Include="SummonBoss.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MageBoss.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -134,5 +140,7 @@
     <ClInclude Include="MeleeEnemy.h" />
     <ClInclude Include="RangeEnemy.h" />
     <ClInclude Include="LevelExit.h" />
+    <ClInclude Include="SummonBoss.h" />
+    <ClInclude Include="MageBoss.h" />
   </ItemGroup>
 </Project>

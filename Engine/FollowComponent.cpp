@@ -30,12 +30,30 @@ namespace XYZEngine
 
 		auto targetPos = followTarget->GetComponent<TransformComponent>()->GetWorldPosition();
 		auto myPos = gameObject->GetComponent<TransformComponent>()->GetWorldPosition();
-		int attackRadius = gameObject->GetComponent<MeleeAttackComponent>()->GetAttackRadius();
+
+		int attackRadius = 0;
+
+		auto attack = gameObject->GetComponent<MeleeAttackComponent>();
+		auto rAttack = gameObject->GetComponent<RangeAttackComponent>();
+		if (attack)
+		{
+			attackRadius = attack->GetAttackRadius();
+		}
+		else if (rAttack)
+		{
+			attackRadius = rAttack->GetAttackRadius();
+		}
+		else
+		{
+			auto sAttack = gameObject->GetComponent<BossSummonComponent>();
+			if (sAttack)
+				attackRadius = sAttack->GetAttackRadius();
+		}
 
 		Vector2Df direction = { targetPos.x - myPos.x, targetPos.y - myPos.y };
 
 		float length = std::sqrt(direction.x * direction.x + direction.y * direction.y);
-		
+
 		if (length > attackRadius && length < detectionRadius)
 		{
 			direction.x /= length;
@@ -80,5 +98,4 @@ namespace XYZEngine
 	{
 		followSpeed = speed;
 	}
-
 }

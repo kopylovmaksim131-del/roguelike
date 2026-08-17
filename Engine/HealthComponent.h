@@ -20,6 +20,7 @@ namespace XYZEngine
 		void TakeDamage(int damage);
 		void RestoreHP(int hp);
 		int GetHP();
+		int GetMaxHP();
 		void SubscribeDeath(std::function<void()> onDeath);
 		void UnsubscribeDeath(std::function<void()> onDeath);
 

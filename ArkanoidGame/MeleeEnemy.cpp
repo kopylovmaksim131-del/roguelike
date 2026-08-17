@@ -12,7 +12,9 @@ namespace RoguelikeGame
 		auto armor = gameObject->GetComponent<XYZEngine::ArmorComponent>();
 		armor->SetArmore(1);
 
-		auto attack = gameObject->GetComponent<XYZEngine::MeleeAttackComponent>();
+		auto attack = gameObject->AddComponent<XYZEngine::MeleeAttackComponent>();
+		attack->SetTargets(std::vector< XYZEngine::GameObject*> { player });
+		attack->SetAttackMode(true);
 		attack->SetAttackRadius(150.f);
 		attack->SetAttackCooldownTime(1.5f);
 		attack->SetDamage(10);

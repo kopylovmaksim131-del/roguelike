@@ -17,10 +17,10 @@ namespace XYZEngine
 			animationTimer = 0.f;
 			currentFrame = (currentFrame + 1) % totalFrames;
 
-			auto renderer = gameObject->GetComponent<XYZEngine::SpriteRendererComponent>();
+			auto renderer = gameObject->GetComponent<SpriteRendererComponent>();
 			if (renderer)
 			{
-				renderer->SetTexture(*XYZEngine::ResourceSystem::Instance()->GetTextureMapElementShared(textureName, currentFrame));
+				renderer->SetTexture(*ResourceSystem::Instance()->GetTextureMapElementShared(textureName, currentFrame));
 			}
 		}
 	}

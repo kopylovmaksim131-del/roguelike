@@ -16,7 +16,7 @@ namespace XYZEngine
 			LOG_INFO("HealthComponent: calling " + std::to_string(deathSubscribers.size()) + " death subscribers");
 			for (auto& subscriber : deathSubscribers)
 			{
-				subscriber(); 
+				subscriber();
 			}
 			GameWorld::Instance()->DestroyGameObject(gameObject);
 		}
@@ -51,6 +51,10 @@ namespace XYZEngine
 	int HealthComponent::GetHP()
 	{
 		return healthPoint;
+	}
+	int HealthComponent::GetMaxHP()
+	{
+		return maxHealthPoint;
 	}
 	void HealthComponent::SubscribeDeath(std::function<void()> onDeath)
 	{
