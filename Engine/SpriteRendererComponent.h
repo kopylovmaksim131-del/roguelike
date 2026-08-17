@@ -18,6 +18,7 @@ namespace XYZEngine
 		void Render() override;
 
 		const sf::Sprite* GetSprite() const;
+		sf::Sprite* GetSpriteToChange();
 		void SetTexture(const sf::Texture& newTexture);
 		void SetPixelSize(int newWidth, int newHeight);
 

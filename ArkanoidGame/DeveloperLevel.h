@@ -44,5 +44,7 @@ namespace RoguelikeGame
 		float fadeTimer = 2.f;
 		float fadeDuration = 2.f;
 		bool faderIsActive = false;
+		bool isBossLevel = true;
+		std::string soundName;
 	};
 }

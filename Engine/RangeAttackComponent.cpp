@@ -1,0 +1,217 @@
+#include "pch.h"
+#include "RangeAttackComponent.h"
+
+namespace XYZEngine
+{
+	RangeAttackComponent::RangeAttackComponent(GameObject* gameObject) : Component(gameObject)
+	{
+	}
+
+	RangeAttackComponent::~RangeAttackComponent()
+	{
+		for (auto target : attackTargets)
+		{
+			auto health = target->GetComponent<HealthComponent>();
+			if (health)
+			{
+				health->UnsubscribeDeath([this, target]() {
+					attackTargets.erase(
+						std::remove(attackTargets.begin(), attackTargets.end(), target),
+						attackTargets.end()
+					);
+					});
+			}
+		}
+	}
+
+	void RangeAttackComponent::Update(float deltaTime)
+	{
+		attackCooldown = std::min(attackCooldown + deltaTime, attackCooldownTime);
+
+		if (autoAttack)
+		{
+			shouldAttack = true;
+		}
+		if (shouldAttack && attackCooldown >= attackCooldownTime)
+		{
+			LOG_INFO("MeleeAttackComponent::Update object name='" + gameObject->GetName() + "' attack'");
+
+			for (auto target : attackTargets)
+			{
+				if (!target->IsAlive()) continue;
+
+				auto targetPos = target->GetComponent<TransformComponent>()->GetWorldPosition();
+				auto myPos = gameObject->GetComponent<TransformComponent>()->GetWorldPosition();
+
+				Vector2Df direction = { targetPos.x - myPos.x, targetPos.y - myPos.y };
+
+				CreateProjectile(direction);
+			}
+
+			attackTargets.erase(
+				std::remove_if(attackTargets.begin(), attackTargets.end(),
+					[](GameObject* target) { return !target->IsAlive(); }),
+				attackTargets.end()
+			);
+
+			attackCooldown = 0.f;
+			shouldAttack = false;
+		}
+	}
+
+	void RangeAttackComponent::Render()
+	{
+	}
+
+	void RangeAttackComponent::SetAttackMode(bool autoAtt)
+	{
+		autoAttack = autoAtt;
+	}
+
+	void RangeAttackComponent::SetShouldAttack(bool should)
+	{
+		shouldAttack = should;
+	}
+
+	void RangeAttackComponent::SetAttackCooldownTime(float cooldown)
+	{
+		attackCooldownTime = cooldown;
+	}
+
+	void RangeAttackComponent::SetAttackRadius(float radius)
+	{
+		attackRadius = radius;
+	}
+
+	void RangeAttackComponent::SetDamage(int dmg)
+	{
+		damage = dmg;
+	}
+
+	void RangeAttackComponent::SetTargets(std::vector<GameObject*> targets)
+	{
+		for (auto oldTarget : attackTargets)
+		{
+			auto health = oldTarget->GetComponent<HealthComponent>();
+			if (health)
+			{
+				health->UnsubscribeDeath([this, oldTarget]() {
+					attackTargets.erase(
+						std::remove(attackTargets.begin(), attackTargets.end(), oldTarget),
+						attackTargets.end()
+					);
+					});
+			}
+		}
+
+		attackTargets = targets;
+		for (auto target : attackTargets)
+		{
+			auto health = target->GetComponent<HealthComponent>();
+			if (health)
+			{
+				health->SubscribeDeath([this, target]() {
+					attackTargets.erase(
+						std::remove(attackTargets.begin(), attackTargets.end(), target),
+						attackTargets.end()
+					);
+					});
+			}
+		}
+	}
+
+	float RangeAttackComponent::GetAttackCooldownTime()
+	{
+		return attackCooldownTime;
+	}
+
+	int RangeAttackComponent::GetAttackRadius()
+	{
+		return attackRadius;
+	}
+
+	std::vector<GameObject*> RangeAttackComponent::FindTargets(float horizontalAxis, float verticalAxis)
+	{
+		std::vector<GameObject*> targets;
+
+		float attackLen = std::sqrt(horizontalAxis * horizontalAxis + verticalAxis * verticalAxis);
+		if (attackLen == 0)
+		{
+			return targets;
+		}
+		Vector2Df attackDir = { horizontalAxis / attackLen, verticalAxis / attackLen };
+
+		auto gameObjects = GameWorld::Instance()->GetGameObjects();
+		auto myPos = gameObject->GetComponent<TransformComponent>()->GetWorldPosition();
+
+		for (auto target : gameObjects)
+		{
+			if (target->GetComponent<HealthComponent>() == nullptr || target == gameObject)
+			{
+				continue;
+			}
+
+			auto targetPos = target->GetComponent<TransformComponent>()->GetWorldPosition();
+			Vector2Df toEnemy = { targetPos.x - myPos.x, targetPos.y - myPos.y };
+
+			float toEnemyLen = std::sqrt(toEnemy.x * toEnemy.x + toEnemy.y * toEnemy.y);
+			if (toEnemyLen == 0)
+			{
+				continue;
+			}
+
+			Vector2Df toEnemyDir = { toEnemy.x / toEnemyLen, toEnemy.y / toEnemyLen };
+			float dot = attackDir.x * toEnemyDir.x + attackDir.y * toEnemyDir.y;
+
+			if (dot >= 0.7f && toEnemyLen <= attackRadius)
+			{
+				targets.push_back(target);
+			}
+		}
+
+		return targets;
+	}
+
+	void RangeAttackComponent::CreateProjectile(Vector2Df direction)
+	{
+		auto myPos = gameObject->GetComponent<TransformComponent>()->GetWorldPosition();
+
+		float length = std::sqrt(direction.x * direction.x + direction.y * direction.y);
+		if (length > 0)
+		{
+			direction.x /= length;
+			direction.y /= length;
+		}
+
+		auto projectile = GameWorld::Instance()->CreateGameObject("Projectile");
+		auto transform = projectile->GetComponent<TransformComponent>();
+		transform->SetWorldPosition({ myPos.x + direction.x * 50.f, myPos.y + direction.y * 50.f });
+
+		auto renderer = projectile->AddComponent<SpriteRendererComponent>();
+		renderer->SetTexture(*ResourceSystem::Instance()->GetTextureShared("Bonus"));
+		renderer->SetPixelSize(30, 30);
+
+		auto body = projectile->AddComponent<RigidbodyComponent>();
+		body->SetLinearVelocity(direction * 500.f);
+		body->SetKinematic(false);
+
+		auto collider = projectile->AddComponent<SpriteColliderComponent>();
+		collider->SetTrigger(true);
+		collider->SubscribeTriggerEnter([this, projectile](Trigger trigger) {
+			auto otherObj = trigger.GetSecond()->GetGameObject();
+			auto first = trigger.GetFirst()->GetGameObject();
+			LOG_INFO("Trigger hit: first=" + first->GetName() + ", other=" + otherObj->GetName());
+			if (first->GetName() == "Player")
+			{
+				auto health = first->GetComponent<HealthComponent>();
+				if (health)
+					health->TakeDamage(this->damage);
+				GameWorld::Instance()->DestroyGameObject(projectile);
+			}
+			else if (otherObj->GetName() == "Wall")
+			{
+				GameWorld::Instance()->DestroyGameObject(projectile);
+			}
+			});
+	}
+}

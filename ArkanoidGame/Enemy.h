@@ -7,6 +7,7 @@
 #include "HealthComponent.h"
 #include "ArmorComponent.h"
 #include "MeleeAttackComponent.h"
+#include "RangeAttackComponent.h"
 #include "GameObject.h"
 #include "Player.h"
 #include "FollowComponent.h"

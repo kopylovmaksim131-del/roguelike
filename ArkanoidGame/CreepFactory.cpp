@@ -13,6 +13,12 @@ namespace RoguelikeGame
 		case EnemyType::Range:
 			new RangeEnemy(position, 0, player);
 			break;
+		case EnemyType::Mage:
+			new MageBoss(position, 0, player);
+			break;
+		case EnemyType::Summoner:
+			new SummonBoss(position, 0, player);
+			break;
 		}
 	}
 }

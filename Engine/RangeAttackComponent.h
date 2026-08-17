@@ -3,16 +3,21 @@
 #include "TransformComponent.h"
 #include "ArmorComponent.h"
 #include "HealthComponent.h"
+#include "SpriteRendererComponent.h"
+#include "ResourceSystem.h"
+#include "SpriteColliderComponent.h"
+#include "ColliderComponent.h"
+#include "Trigger.h"
 #include "Export.h" 
 #include "Logger.h"
 
 namespace XYZEngine
 {
-	class ENGINE_API MeleeAttackComponent : public Component
+	class ENGINE_API RangeAttackComponent : public Component
 	{
 	public:
-		MeleeAttackComponent(GameObject* gameObject);
-		~MeleeAttackComponent();
+		RangeAttackComponent(GameObject* gameObject);
+		~RangeAttackComponent();
 
 		void Update(float deltaTime) override;
 		void Render() override;
@@ -22,7 +27,6 @@ namespace XYZEngine
 		void SetAttackCooldownTime(float speed);
 		void SetAttackRadius(float radius);
 		void SetDamage(int dmg);
-		int GetDamage();
 		void SetTargets(std::vector<GameObject*> targets);
 		float GetAttackCooldownTime();
 		int GetAttackRadius();
@@ -32,6 +36,8 @@ namespace XYZEngine
 		std::vector<GameObject*> attackTargets;
 
 	private:
+		void CreateProjectile(Vector2Df direction);
+
 		float attackCooldownTime = 0.f;
 		float attackCooldown = 0.f;
 		float attackRadius = 0.f;

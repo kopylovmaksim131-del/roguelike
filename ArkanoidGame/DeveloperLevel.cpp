@@ -17,6 +17,7 @@ namespace RoguelikeGame
 		fadeTimer = 2.f;
 		faderIsActive = false;
 		this->SetFinished(false);
+		isBossLevel = !isBossLevel;
 		
 		CreatBackground();
 
@@ -30,11 +31,23 @@ namespace RoguelikeGame
 
 		CreepFactory factory;
 		CreepSpawner spawner(&factory);
-		spawner.SpawnCreeps(EnemyType::Melee, 1, player->GetPlayerGameObject(), freeCells);
-		spawner.SpawnCreeps(EnemyType::Range, 1, player->GetPlayerGameObject(), freeCells);
 
-		ResourceSystem::Instance()->LoadMusic("Sound", "Resources/Sounds/Sound.ogg");
-		XYZEngine::Engine::Instance()->PlayMusic("Sound");
+		if (isBossLevel)
+		{
+			EnemyType bossType = (std::rand() % 2 == 0) ? EnemyType::Mage : EnemyType::Summoner;
+			spawner.SpawnCreeps(bossType, 1, player->GetPlayerGameObject(), freeCells);
+			ResourceSystem::Instance()->LoadMusic("BossSound", "Resources/Sounds/bossFight1.wav");
+			XYZEngine::Engine::Instance()->PlayMusic("BossSound");
+			soundName = "BossSound";
+		}
+		else
+		{
+			spawner.SpawnCreeps(EnemyType::Melee, 1, player->GetPlayerGameObject(), freeCells);
+			spawner.SpawnCreeps(EnemyType::Range, 2, player->GetPlayerGameObject(), freeCells);
+			ResourceSystem::Instance()->LoadMusic("Sound", "Resources/Sounds/Sound.ogg");
+			XYZEngine::Engine::Instance()->PlayMusic("Sound");
+			soundName = "Sound";
+		}
 	}
 
 	void DeveloperLevel::Restart()
@@ -241,8 +254,11 @@ namespace RoguelikeGame
 			}
 		}
 		// Maze Generator
-		MazeGenerator mazeGenerator(width, height, this);
-		mazeGenerator.Generate();
+		if (!isBossLevel)
+		{
+			MazeGenerator mazeGenerator(width, height, this);
+			mazeGenerator.Generate();
+		}
 	}
 
 	std::vector<std::pair<int, int>> DeveloperLevel::GetFreeCells()

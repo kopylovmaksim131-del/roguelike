@@ -10,7 +10,7 @@ namespace RoguelikeGame
 
 		auto follow = gameObject->AddComponent<XYZEngine::FollowComponent>();
 		follow->SetFollowTarget(player);
-		follow->SetRadius(300.f);
+		follow->SetRadius(1000.f);
 		follow->SetSpeed(200.f);
 
 		auto renderer = gameObject->AddComponent<XYZEngine::SpriteRendererComponent>();
@@ -23,8 +23,5 @@ namespace RoguelikeGame
 		gameObject->AddComponent<XYZEngine::SpriteColliderComponent>();
 		gameObject->AddComponent<XYZEngine::HealthComponent>();
 		gameObject->AddComponent<XYZEngine::ArmorComponent>();
-		auto attack = gameObject->AddComponent<XYZEngine::MeleeAttackComponent>();
-		attack->SetTargets(std::vector< XYZEngine::GameObject*> { player });
-		attack->SetAttackMode(true);
 	}
 }

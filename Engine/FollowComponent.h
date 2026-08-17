@@ -1,5 +1,4 @@
 #pragma once
-
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include <functional>
@@ -8,6 +7,8 @@
 #include "Trigger.h"
 #include "PhysicsSystem.h"
 #include "MeleeAttackComponent.h"
+#include "RangeAttackComponent.h"
+#include "BossSummonComponent.h"
 #include "Export.h"
 
 namespace XYZEngine

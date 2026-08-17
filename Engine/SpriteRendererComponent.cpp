@@ -41,6 +41,12 @@ namespace XYZEngine
 	{
 		return sprite;
 	}
+
+	sf::Sprite* SpriteRendererComponent::GetSpriteToChange()
+	{
+		return sprite;
+	}
+
 	void SpriteRendererComponent::SetTexture(const sf::Texture& newTexture)
 	{
 		sprite->setTexture(newTexture);
