@@ -39,7 +39,11 @@ namespace RoguelikeGame
 		attack->SetAttackRadius(220.f);
 		attack->SetAttackCooldownTime(1.f);
 		attack->SetDamage(15);
+
+		auto animation = gameObject->AddComponent<XYZEngine::AnimationComponent>();
+		animation->SetAnimation("player", 0.1f, 2);
 	}
+
 	void Player::Update(float deltaTime)
 	{
 		if (!gameObject || !gameObject->IsAlive()) return;

@@ -173,6 +173,7 @@
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameStateDate.cpp" />
     <ClCompile Include="GameStateGameWin.cpp" />
+    <ClCompile Include="LevelExit.cpp" />
     <ClCompile Include="MazeGenerator.cpp" />
     <ClCompile Include="MeleeEnemy.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -200,6 +201,7 @@
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameStateData.h" />
     <ClInclude Include="GameStateGameWin.h" />
+    <ClInclude Include="LevelExit.h" />
     <ClInclude Include="LevelLoader.h" />
     <ClInclude Include="MazeGenerator.h" />
     <ClInclude Include="MeleeEnemy.h" />

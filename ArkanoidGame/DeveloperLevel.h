@@ -7,6 +7,7 @@
 #include "Enemy.h"
 #include "Floor.h"
 #include "Wall.h"
+#include "LevelExit.h"
 
 using namespace XYZEngine;
 
@@ -20,12 +21,28 @@ namespace RoguelikeGame
 		void Stop() override;
 		void Update(float deltaTime) override;
 
+		void SetIsTransitioning();
+
 		std::vector<std::unique_ptr<Wall>> walls;
 		std::vector<std::unique_ptr<Floor>> floors;
 		std::vector<std::vector<bool>> floorCreated;
 
 	private:
+		int CountEnemies();
+		void ActivateExit();
+		void StartTransition();
+		void UpdateFader(float deltaTime);
+		void MovePlayerToExit(float deltaTime);
+
 		std::unique_ptr<Player> player;
+		std::unique_ptr<LevelExit> exit;
+		bool exitActive = false;
+		bool isTransitioning = false;
 		void CreatBackground();
+		std::vector<std::pair<int, int>> GetFreeCells();
+		XYZEngine::Vector2Df GetRandomFreeCells(std::vector<std::pair<int, int>>& freeCells);
+		float fadeTimer = 2.f;
+		float fadeDuration = 2.f;
+		bool faderIsActive = false;
 	};
 }

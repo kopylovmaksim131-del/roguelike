@@ -18,7 +18,7 @@ namespace RoguelikeGame
     
     public:
         CreepSpawner(CreepFactory* factory) : factory(factory) {};
-        void SpawnCreeps(EnemyType type, int count, XYZEngine::GameObject* player, std::vector<std::vector<bool>>& availablePos);
+        void SpawnCreeps(EnemyType type, int count, XYZEngine::GameObject* player, std::vector<std::pair<int, int>>& freeCells);
 
     private:
         CreepFactory* factory;

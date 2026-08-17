@@ -22,6 +22,10 @@ namespace XYZEngine
 		void Run();
 		void SetupLogger();
 
+		void LogInfo(const std::string& message);
+		void LogWarning(const std::string& message);
+		void LogError(const std::string& message);
+
 	private:
 		Engine();
 		~Engine() = default;

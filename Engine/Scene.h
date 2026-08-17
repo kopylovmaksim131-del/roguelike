@@ -12,5 +12,10 @@ namespace XYZEngine
 		virtual void Restart() = 0;
 		virtual void Stop() = 0;
 		virtual void Update(float deltaTime) = 0;
+		bool IsFinished();
+		void SetFinished(bool isFinished);
+
+	protected:
+		bool isFinished = false;
 	};
 }

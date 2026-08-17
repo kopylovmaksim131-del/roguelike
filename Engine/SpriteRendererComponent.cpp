@@ -53,6 +53,11 @@ namespace XYZEngine
 		scale = { (float)newWidth / (float)originalSize.x, -(float)newHeight / (float)originalSize.y };
 	}
 
+	void SpriteRendererComponent::setAlfaSpriteColor(float alfa)
+	{
+		sprite->setColor(sf::Color(0, 0, 0, alfa));
+	}
+
 	void SpriteRendererComponent::FlipX(bool flip)
 	{
 		if (flip != isFlipX)
