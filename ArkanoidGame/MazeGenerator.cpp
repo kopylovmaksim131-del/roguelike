@@ -86,7 +86,7 @@ namespace RoguelikeGame
 
             // Ensure the neighbor is within bounds and unvisited.
             if (nx > 0 && nx < width - 1 && ny > 0 && ny < height - 1 && !grid[ny][nx])
-            //if (nx >= 0 && nx < width && ny >= 0 && ny < height && !grid[ny][nx])
+                //if (nx >= 0 && nx < width && ny >= 0 && ny < height && !grid[ny][nx])
             {
                 available.push_back(dir);
             }
@@ -107,7 +107,7 @@ namespace RoguelikeGame
         {
             level->walls.push_back(std::make_unique<Wall>(
                 XYZEngine::Vector2Df{ wallX * 128.f, wallY * 128.f }, 14));
-            level->floorCreated[y1][x1] = false;
+            level->floorCreated[wallY][wallX] = false;
         }
     }
 }

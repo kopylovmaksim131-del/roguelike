@@ -12,21 +12,37 @@ namespace RoguelikeGame
 {
 	void DeveloperLevel::Start()
 	{
+		exitActive = false;
+		isTransitioning = false;
+		fadeTimer = 2.f;
+		faderIsActive = false;
+		this->SetFinished(false);
+		
 		CreatBackground();
-		player = std::make_unique<Player>(XYZEngine::Vector2Df{ 640.f, 360.f }, 0);
+
+		std::vector<std::pair<int, int>> freeCells = GetFreeCells();
+
+		XYZEngine::Vector2Df exitPos = GetRandomFreeCells(freeCells);
+		exit = std::make_unique<LevelExit>(XYZEngine::Vector2Df{ exitPos.x, exitPos.y }, 16);
+
+		XYZEngine::Vector2Df playerPos = GetRandomFreeCells(freeCells);
+		player = std::make_unique<Player>(playerPos, 0);
+
 		CreepFactory factory;
 		CreepSpawner spawner(&factory);
-		spawner.SpawnCreeps(EnemyType::Melee, 5, player->GetPlayerGameObject(), floorCreated);
-		spawner.SpawnCreeps(EnemyType::Range, 5, player->GetPlayerGameObject(), floorCreated);
+		spawner.SpawnCreeps(EnemyType::Melee, 1, player->GetPlayerGameObject(), freeCells);
+		spawner.SpawnCreeps(EnemyType::Range, 1, player->GetPlayerGameObject(), freeCells);
 
 		ResourceSystem::Instance()->LoadMusic("Sound", "Resources/Sounds/Sound.ogg");
 		XYZEngine::Engine::Instance()->PlayMusic("Sound");
 	}
+
 	void DeveloperLevel::Restart()
 	{
 		Stop();
 		Start();
 	}
+
 	void DeveloperLevel::Stop()
 	{
 		auto music = ResourceSystem::Instance()->GetMusicShared("Sound");
@@ -35,6 +51,7 @@ namespace RoguelikeGame
 
 		GameWorld::Instance()->Clear();
 	}
+
 	void DeveloperLevel::Update(float deltaTime)
 	{
 		if (!player->GetPlayerGameObject() || !player->GetPlayerGameObject()->IsAlive())
@@ -43,7 +60,112 @@ namespace RoguelikeGame
 			return;
 		}
 		player->Update(deltaTime);
+
+		if (CountEnemies() == 1 && !exitActive)
+			ActivateExit();
+
+		if (isTransitioning && !faderIsActive)
+			StartTransition();
+
+		if (faderIsActive && fadeTimer > 0.f)
+		{
+			UpdateFader(deltaTime);
+			MovePlayerToExit(deltaTime);
+		}
+
+		if (fadeTimer <= 0.f)
+			this->SetFinished(true);
 	}
+
+	void DeveloperLevel::ActivateExit()
+	{
+		exitActive = true;
+		auto gameObject = exit->GetGameObject();
+
+		auto renderer = gameObject->AddComponent<XYZEngine::SpriteRendererComponent>();
+		renderer->SetTexture(*XYZEngine::ResourceSystem::Instance()->GetTextureMapElementShared("level_floors", 16));
+		renderer->SetPixelSize(128, 128);
+
+		auto collider = gameObject->AddComponent<XYZEngine::SpriteColliderComponent>();
+		collider->SetTrigger(true);
+		collider->SubscribeTriggerEnter([this](XYZEngine::Trigger trigger) {
+			this->SetIsTransitioning();
+			});
+
+		auto body = gameObject->AddComponent<XYZEngine::RigidbodyComponent>();
+		body->SetKinematic(false);
+	}
+
+	void DeveloperLevel::StartTransition()
+	{
+		faderIsActive = true;
+
+		auto playerObj = player->GetPlayerGameObject();
+
+		auto gameObject = GameWorld::Instance()->CreateGameObject("Fader");
+
+		playerObj->RemoveComponent(playerObj->GetComponent<XYZEngine::InputComponent>());
+
+		playerObj->GetComponent<RigidbodyComponent>()->SetLinearVelocity({ 0.f, 0.f });
+
+		auto transform = gameObject->GetComponent<XYZEngine::TransformComponent>();
+		transform->SetWorldPosition(playerObj->GetComponent<TransformComponent>()->GetWorldPosition());
+
+		auto renderer = gameObject->AddComponent<XYZEngine::SpriteRendererComponent>();
+		renderer->SetTexture(*XYZEngine::ResourceSystem::Instance()->GetTextureShared("Fader"));
+		renderer->SetPixelSize(2000, 2000);
+		renderer->setAlfaSpriteColor(0);
+	}
+
+	void DeveloperLevel::UpdateFader(float deltaTime)
+	{
+		float alfa = (fadeDuration - fadeTimer) / fadeDuration;
+		auto gameObj = GameWorld::Instance()->GetGameObjectByName("Fader");
+		if (gameObj)
+			gameObj->GetComponent<SpriteRendererComponent>()->setAlfaSpriteColor(255 * alfa);
+
+		fadeTimer -= deltaTime;
+	}
+
+	void DeveloperLevel::MovePlayerToExit(float deltaTime)
+	{
+		auto playerPos = player->GetPlayerGameObject()->GetComponent<TransformComponent>()->GetWorldPosition();
+		auto exitPos = exit->GetGameObject()->GetComponent<TransformComponent>()->GetWorldPosition();
+
+		float dx = exitPos.x - playerPos.x;
+		float dy = exitPos.y - playerPos.y;
+		float length = std::sqrt(dx * dx + dy * dy);
+
+		if (length > 2.f)
+		{
+			float step = 150.f * deltaTime;
+			if (step > length)
+				step = length;
+			player->GetPlayerGameObject()->GetComponent<TransformComponent>()->MoveBy({ dx / length * step, dy / length * step });
+		}
+	}
+
+	void DeveloperLevel::SetIsTransitioning()
+	{
+		isTransitioning = true;
+	}
+
+	int DeveloperLevel::CountEnemies()
+	{
+		std::vector<XYZEngine::GameObject*> objects = XYZEngine::GameWorld::Instance()->GetGameObjects();
+
+		int enemyCount = 0;
+		for (auto obj : objects)
+		{
+			if (obj->GetComponent<XYZEngine::HealthComponent>())
+			{
+				enemyCount++;
+			}
+		}
+
+		return enemyCount;
+	}
+
 	void DeveloperLevel::CreatBackground()
 	{
 		ResourceSystem::Instance()->LoadTexture("Background", "Resources/Textures/Background.png");
@@ -121,5 +243,37 @@ namespace RoguelikeGame
 		// Maze Generator
 		MazeGenerator mazeGenerator(width, height, this);
 		mazeGenerator.Generate();
+	}
+
+	std::vector<std::pair<int, int>> DeveloperLevel::GetFreeCells()
+	{
+		std::vector<std::pair<int, int>> freeCells;
+		for (int y = 0; y < floorCreated.size(); ++y)
+		{
+			for (int x = 0; x < floorCreated[y].size(); ++x)
+			{
+				if (floorCreated[y][x])
+				{
+					freeCells.push_back({ x, y });
+				}
+			}
+		}
+
+		return freeCells;
+	}
+
+	XYZEngine::Vector2Df DeveloperLevel::GetRandomFreeCells(std::vector<std::pair<int, int>>& freeCells)
+	{
+		int index = std::rand() % freeCells.size();
+		std::pair<int, int> cell = freeCells[index];
+		int x = cell.first;
+		int y = cell.second;
+		if (index < freeCells.size())
+		{
+			freeCells.erase(freeCells.begin() + index);
+		}
+		XYZEngine::Vector2Df position{ x * 128.f, y * 128.f };
+
+		return position;
 	}
 }

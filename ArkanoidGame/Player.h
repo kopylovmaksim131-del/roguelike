@@ -8,6 +8,7 @@
 #include "HealthComponent.h"
 #include "ArmorComponent.h"
 #include "MeleeAttackComponent.h"
+#include "AnimationComponent.h"
 #include "GameObject.h"
 
 namespace RoguelikeGame

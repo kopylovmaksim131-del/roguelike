@@ -16,6 +16,7 @@ int main()
 	XYZEngine::ResourceSystem::Instance()->LoadTexture("ball", "Resources/Textures/Ball.png");
 	XYZEngine::ResourceSystem::Instance()->LoadTexture("Bonus", "Resources/Textures/Bonus.png"); 
 	XYZEngine::ResourceSystem::Instance()->LoadTexture("Wall", "Resources/Textures/Wall.png");
+	XYZEngine::ResourceSystem::Instance()->LoadTexture("Fader", "Resources/Textures/Block.png");
 
 	XYZEngine::ResourceSystem::Instance()->LoadTextureMap("player", "Resources/TextureMaps/Player.png", { 48, 63 }, 9, false);
 	XYZEngine::ResourceSystem::Instance()->LoadTextureMap("level_floors", "Resources/TextureMaps/Floor.png", { 16, 16 }, 49, false);

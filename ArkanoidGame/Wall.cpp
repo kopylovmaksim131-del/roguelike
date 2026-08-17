@@ -17,8 +17,6 @@ RoguelikeGame::Wall::Wall(const XYZEngine::Vector2Df position, int textureMapInd
 	}
 	renderer->SetTexture(*tex);
 
-	//renderer->SetTexture(*XYZEngine::ResourceSystem::Instance()->GetTextureMapElementShared("level_walls", textureMapIndex));
-	//renderer->SetTexture(*XYZEngine::ResourceSystem::Instance()->GetTextureShared("Wall"));
 	renderer->SetPixelSize(128, 128);
 
 	auto rigidbody = gameObject->AddComponent<XYZEngine::RigidbodyComponent>();

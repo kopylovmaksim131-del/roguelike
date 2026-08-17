@@ -79,6 +79,9 @@
     <ClCompile Include="RangeEnemy.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
+    <ClCompile Include="LevelExit.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -130,5 +133,6 @@
     <ClInclude Include="CreepSpawner.h" />
     <ClInclude Include="MeleeEnemy.h" />
     <ClInclude Include="RangeEnemy.h" />
+    <ClInclude Include="LevelExit.h" />
   </ItemGroup>
 </Project>

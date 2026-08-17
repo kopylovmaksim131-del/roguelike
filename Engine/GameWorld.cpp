@@ -48,6 +48,11 @@ namespace XYZEngine
 		if (scene)
 		{
 			scene->Update(deltaTime);
+			if (scene->IsFinished())
+			{
+				scene->SetFinished(false);
+				scene->Restart();
+			}
 		}
 	}
 	GameObject* GameWorld::CreateGameObject()

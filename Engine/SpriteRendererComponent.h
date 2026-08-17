@@ -21,6 +21,8 @@ namespace XYZEngine
 		void SetTexture(const sf::Texture& newTexture);
 		void SetPixelSize(int newWidth, int newHeight);
 
+		void setAlfaSpriteColor(float alfa);
+
 		void FlipX(bool flip);
 		void FlipY(bool flip);
 	private:
