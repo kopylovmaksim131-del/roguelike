@@ -49,6 +49,36 @@
     <ClCompile Include="GameStateGameWin.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DeveloperLevel.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeGenerator.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CreepFactory.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CreepSpawner.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeEnemy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeEnemy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -90,5 +120,15 @@
     </ClInclude>
     <ClInclude Include="LevelLoader.h" />
     <ClInclude Include="GameMemento.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="DeveloperLevel.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="Wall.h" />
+    <ClInclude Include="MazeGenerator.h" />
+    <ClInclude Include="CreepFactory.h" />
+    <ClInclude Include="CreepSpawner.h" />
+    <ClInclude Include="MeleeEnemy.h" />
+    <ClInclude Include="RangeEnemy.h" />
   </ItemGroup>
 </Project>

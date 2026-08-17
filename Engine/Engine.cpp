@@ -1,31 +1,79 @@
 #include "pch.h"
 #include "Engine.h"
-#include <SFML/Graphics.hpp>
 #include <iostream>
+#include "GameWorld.h"
+#include "RenderSystem.h"
+#include "ResourceSystem.h"
 
-Engine::Engine() {}
-
-void Engine::Initialization()
+namespace XYZEngine
 {
-	std::cout << "Engine init" << std::endl;
-}
+	Engine* Engine::Instance()
+	{
+		static Engine instance;
+		return &instance;
+	}
 
-void Engine::Run()
-{
-	std::cout << "Engine run" << std::endl;
+	Engine::Engine()
+	{
+		unsigned int seed = (unsigned int)time(nullptr);
+		srand(seed);
+	}
 
-    sf::RenderWindow window(sf::VideoMode(800, 600), "Test SFML from Engine");
+	void Engine::CreateWindowNew(unsigned width, unsigned height, const std::string& title)
+	{
+		auto* window = new sf::RenderWindow(sf::VideoMode(width, height), title);
+		RenderSystem::Instance()->SetMainWindow(window);
+	}
 
-   while (window.isOpen())
-    {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
+	void Engine::PlayMusic(const std::string& name)
+	{
+		auto music = ResourceSystem::Instance()->GetMusicShared(name);
+		music->setLoop(true);
+		music->play();
+	}
 
-        window.clear(sf::Color::Black);
-        window.display();
-    }
+	void Engine::Run()
+	{
+		sf::Clock gameClock;
+		sf::Event event;
+
+		while (RenderSystem::Instance()->GetMainWindow().isOpen())
+		{
+			sf::Time dt = gameClock.restart();
+			float deltaTime = dt.asSeconds();
+
+			while (RenderSystem::Instance()->GetMainWindow().pollEvent(event))
+			{
+				if (event.type == sf::Event::Closed)
+				{
+					RenderSystem::Instance()->GetMainWindow().close();
+				}
+			}
+
+			if (!RenderSystem::Instance()->GetMainWindow().isOpen())
+			{
+				break;
+			}
+
+			RenderSystem::Instance()->GetMainWindow().clear();
+
+			GameWorld::Instance()->Update(deltaTime);
+			GameWorld::Instance()->FixedUpdate(deltaTime);
+			GameWorld::Instance()->SceneUpdate(deltaTime);
+			GameWorld::Instance()->Render();
+			GameWorld::Instance()->LateUpdate();
+
+			RenderSystem::Instance()->GetMainWindow().display();
+		}
+	}
+
+	void Engine::SetupLogger()
+	{
+		auto logger = std::make_shared<Logger>();
+		logger->addSink(std::make_shared<ConsoleSink>());
+		logger->addSink(std::make_shared<FileSink>("log.txt"));
+
+		LoggerRegistry::getInstance().registerLogger("global", logger);
+		LoggerRegistry::getInstance().setDefaultLogger(logger);
+	}
 }

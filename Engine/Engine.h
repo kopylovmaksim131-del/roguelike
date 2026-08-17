@@ -1,16 +1,30 @@
-#ifndef ENGINE_H
-#define ENGINE_H
-#ifdef ENGINE_EXPORTS
-#define ENGINE_API __declspec(dllexport)
-#else
-#define ENGINE_API __declspec(dllimport)
-#endif 
-class ENGINE_API Engine
+#pragma once
+#ifndef NOMINMAX
+#define NOMINMAX
+#endif
+
+#include "SFML/Graphics.hpp"
+#include "Export.h"
+
+namespace XYZEngine
 {
-public:
-	Engine();
-	void Initialization();
-	void Run();
-	//void TestSFML();
-};
-#endif // ENGINE_H
+	class ENGINE_API Engine
+	{
+	public:
+		Engine(const Engine& app) = delete;
+		Engine& operator= (const Engine&) = delete;
+
+		void CreateWindowNew(unsigned width, unsigned height, const std::string& title);
+		void PlayMusic(const std::string& name);
+
+		static Engine* Instance();
+
+		void Run();
+		void SetupLogger();
+
+	private:
+		Engine();
+		~Engine() = default;
+	};
+}
+
